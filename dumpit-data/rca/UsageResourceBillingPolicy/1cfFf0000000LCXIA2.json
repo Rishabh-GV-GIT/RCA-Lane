@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "MONTHLY_AGGREGATION1791176894959",
+    "Name": "Aggregate Usage Monthly by Sum",
+    "Status": "Active",
+    "UsageAccumulationMethod": "Sum",
+    "UsageAccumulationPeriod": "Monthly"
+  },
+  "format": 1,
+  "identity": "1cfFf0000000LCXIA2",
+  "identitySource": "field",
+  "name": "Aggregate Usage Monthly by Sum",
+  "object": "UsageResourceBillingPolicy"
+}

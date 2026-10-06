@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "CostBookId": null,
+    "CurrencyIsoCode": "GBP",
+    "Description": null,
+    "IsActive": false,
+    "Name": "Standard Price Book",
+    "ValidFrom": null,
+    "ValidTo": null
+  },
+  "format": 1,
+  "identity": "standard",
+  "identitySource": "standard",
+  "name": "Standard Price Book",
+  "object": "Pricebook2"
+}

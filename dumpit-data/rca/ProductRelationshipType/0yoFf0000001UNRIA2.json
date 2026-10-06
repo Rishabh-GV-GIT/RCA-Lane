@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "AssociatedProductRoleCat": "ClassificationComponent",
+    "MainProductRoleCat": "Bundle",
+    "Name": "Bundle to Product Classification Component Relationship"
+  },
+  "format": 1,
+  "identity": "0yoFf0000001UNRIA2",
+  "identitySource": "field",
+  "name": "Bundle to Product Classification Component Relationship",
+  "object": "ProductRelationshipType"
+}

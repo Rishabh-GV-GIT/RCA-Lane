@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "AdjustmentMethod": "Range",
+    "CurrencyIsoCode": "GBP",
+    "Description": null,
+    "EffectiveFrom": "2026-10-05T05:08:27.000Z",
+    "EffectiveTo": null,
+    "IsActive": false,
+    "Name": "Standard Attribute Based Adjustment",
+    "Pricebook2Id": {
+      "$ref": "Pricebook2",
+      "identity": "standard"
+    },
+    "ScheduleType": "Attribute"
+  },
+  "format": 1,
+  "identity": "84XFf0000001BfmMAE",
+  "identitySource": "field",
+  "name": "Standard Attribute Based Adjustment",
+  "object": "PriceAdjustmentSchedule"
+}

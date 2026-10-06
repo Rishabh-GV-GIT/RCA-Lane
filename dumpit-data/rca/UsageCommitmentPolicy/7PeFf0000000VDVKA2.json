@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "CommitmentRate": "Lowest Commitment Rate",
+    "Name": "Lowest Commitment Fulfilled Rate"
+  },
+  "format": 1,
+  "identity": "7PeFf0000000VDVKA2",
+  "identitySource": "field",
+  "name": "Lowest Commitment Fulfilled Rate",
+  "object": "UsageCommitmentPolicy"
+}

@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "Name": "Rate Usage Monthly",
+    "ProductId": null,
+    "RatingDelayDuration": null,
+    "RatingDelayDurationUnit": null,
+    "RatingPeriod": "Monthly",
+    "UsageResourceId": null
+  },
+  "format": 1,
+  "identity": "1HJFf0000000LCXOA2",
+  "identitySource": "field",
+  "name": "Rate Usage Monthly",
+  "object": "RatingFrequencyPolicy"
+}

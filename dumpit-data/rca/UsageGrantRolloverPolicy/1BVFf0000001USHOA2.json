@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "Code": "DEFAULT_ROLLOVER1791176894959",
+    "IsRolloverAllowed": true,
+    "MaximumRolloverCount": null,
+    "Name": "Rollover Grants without Expiry",
+    "ShouldAllowRolloverExpiry": false,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "1BVFf0000001USHOA2",
+  "identitySource": "field",
+  "name": "Rollover Grants without Expiry",
+  "object": "UsageGrantRolloverPolicy"
+}
