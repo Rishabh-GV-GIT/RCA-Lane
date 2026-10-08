@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "DoesAutoRenewAssetByDefault": false,
+    "Name": "Term Based - Monthly",
+    "PricingTerm": 1,
+    "PricingTermUnit": "Months",
+    "SellingModelType": "TermDefined",
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "0jPhg00000041LnEAI",
+  "identitySource": "field",
+  "name": "Term Based - Monthly",
+  "object": "ProductSellingModel"
+}
