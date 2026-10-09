@@ -46,22 +46,6 @@
         <type>Flexipage</type>
         <profile>Standard</profile>
     </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Quote_Record_Page1</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Quote</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Sales User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Quote_Record_Page1</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Quote</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Sales User</profile>
-    </profileActionOverrides>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Opportunity</tabs>
