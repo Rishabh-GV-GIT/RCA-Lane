@@ -69,7 +69,7 @@
     <isVersioned>false</isVersioned>
     <setupName>API Transaction Attribute</setupName>
     <sourceObject>API_Transaction_Volume__c</sourceObject>
-    <status>Active</status>
+    <status>Inactive</status>
     <type>LowVolume</type>
     <usageType>DefaultPricing</usageType>
 </DecisionTable>
