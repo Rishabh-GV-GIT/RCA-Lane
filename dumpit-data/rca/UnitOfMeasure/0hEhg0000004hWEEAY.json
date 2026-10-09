@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "ConversionFactor": 1,
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "CALLS",
+    "RoundingMethod": null,
+    "Scale": null,
+    "Sequence": 4,
+    "Status": "Active",
+    "Type": "Count",
+    "UnitCode": "CALLS",
+    "UnitOfMeasureClassId": {
+      "$ref": "UnitOfMeasureClass",
+      "identity": "1BQhg0000003IGZGA2"
+    }
+  },
+  "format": 1,
+  "identity": "0hEhg0000004hWEEAY",
+  "identitySource": "field",
+  "name": "CALLS",
+  "object": "UnitOfMeasure"
+}
