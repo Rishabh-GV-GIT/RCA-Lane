@@ -4,99 +4,16 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>actionNames</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>BrowseCatalog</value>
-                            <visibilityRule>
-                                <booleanFilter>1 OR 2 OR 3</booleanFilter>
-                                <criteria>
-                                    <leftValue>{!Record.Status}</leftValue>
-                                    <operator>EQUAL</operator>
-                                    <rightValue>Draft</rightValue>
-                                </criteria>
-                                <criteria>
-                                    <leftValue>{!Record.Status}</leftValue>
-                                    <operator>EQUAL</operator>
-                                    <rightValue>Needs Review</rightValue>
-                                </criteria>
-                                <criteria>
-                                    <leftValue>{!Record.Status}</leftValue>
-                                    <operator>EQUAL</operator>
-                                    <rightValue>In Review</rightValue>
-                                </criteria>
-                            </visibilityRule>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>FeedItem.TextPost</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>FeedItem.ContentPost</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>FeedItem.LinkPost</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>FeedItem.PollPost</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Edit</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Delete</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>ChangeOwnerOne</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>ChangeRecordType</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>PrintableView</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>UpdateQuote</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>CreatePdf</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>EmailQuote</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>SyncQuote</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>CreateOrder</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>GenerateQuoteDocument</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>GenerateInvoice</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteAdjustment</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>MediaSpotCalendar</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>CreateRampSchedule</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
                     <name>collapsed</name>
                     <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>enableActionsConfiguration</name>
-                    <value>true</value>
+                    <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>enableActionsInNative</name>
-                    <value>true</value>
+                    <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>hideChatterActions</name>
@@ -108,7 +25,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>numVisibleActions</name>
-                    <value>3</value>
+                    <value>2</value>
                 </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
                 <identifier>force_highlightsPanel</identifier>
@@ -156,74 +73,12 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>adjustmentTypeFields</name>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>displayActions</name>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>displayFields</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>QuoteLineItem.QuoteLineGroup.Name[QuoteLineGroup]</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteLineItem.QuoteLineGroup.Description[QuoteLineGroup]</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteLineItem.QuoteLineGroup.Discount[QuoteLineGroup]</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteLineItem.QuoteLineGroup.DiscountAmount[QuoteLineGroup]</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteLineItem.QuoteLineGroup.UnitPriceUplift[QuoteLineGroup]</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteLineItem.Product2.Name[Product2]</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteLineItem.ListPrice</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteLineItem.UnitPrice</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteLineItem.DiscountAmount</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteLineItem.Discount</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteLineItem.QuoteLineGroup.RampUpliftType[QuoteLineGroup]</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteLineItem.UnitPriceUplift</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteLineItem.StartDate</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteLineItem.EndDate</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteLineItem.NetUnitPrice</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>QuoteLineItem.NetTotalPrice</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
                     <name>enableQuickAdd</name>
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>enableSidepanel</name>
                     <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>viewRampDetailFields</name>
                 </componentInstanceProperties>
                 <componentName>runtime_rca:salesTxnLineTable</componentName>
                 <identifier>runtime_rca_salesTxnLineTable</identifier>
@@ -337,9 +192,9 @@
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Quote Record Page</masterLabel>
-    <parentFlexiPage>runtime_sales_quotes__Quote_rec_L_cpq</parentFlexiPage>
-    <sobjectType>Quote</sobjectType>
+    <masterLabel>Order Record Page</masterLabel>
+    <parentFlexiPage>commerce__Order_rec_L_cpq</parentFlexiPage>
+    <sobjectType>Order</sobjectType>
     <template>
         <name>flexipage:recordHomeSingleColTemplateDesktop</name>
     </template>
