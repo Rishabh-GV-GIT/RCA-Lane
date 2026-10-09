@@ -7,6 +7,9 @@
         <locationY>0</locationY>
         <actionName>flowruntime:showToastMessage</actionName>
         <actionType>lwcComponent</actionType>
+        <connector>
+            <targetReference>END_ELEMENT_3</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>toastMessageTitle</name>
@@ -56,6 +59,9 @@
         <label>Opoortunity is NUll?</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>END_ELEMENT_3</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Opportunity_not_null</name>
@@ -74,6 +80,16 @@
         </rules>
     </decisions>
     <description>Creates the new quote</description>
+    <ends>
+        <name>END_ELEMENT_1</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_3</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
     <environments>Default</environments>
     <interviewLabel>Opportunity-SCREEN-Create a new  Quote {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Opportunity-SCREEN-Create a new  Quote</label>
@@ -253,6 +269,9 @@
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
+        <connector>
+            <targetReference>END_ELEMENT_1</targetReference>
+        </connector>
         <fields>
             <name>FaultMessage</name>
             <fieldText>&lt;p&gt;{!$Flow.FaultMessage}&lt;/p&gt;</fieldText>
