@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Per User</fullName>
+        <default>false</default>
+        <label>Per User</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Flat</fullName>
+        <default>false</default>
+        <label>Flat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Per Employee</fullName>
+        <default>false</default>
+        <label>Per Employee</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tiered</fullName>
+        <default>false</default>
+        <label>Tiered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Per Unit</fullName>
+        <default>false</default>
+        <label>Per Unit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Per Day</fullName>
+        <default>false</default>
+        <label>Per Day</label>
+    </standardValue>
+</StandardValueSet>
