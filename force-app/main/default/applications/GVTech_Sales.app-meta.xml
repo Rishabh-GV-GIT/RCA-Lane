@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#E1468B</headerColor>
+        <logo>GV_Mantra_Logo_1</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>GVTech Sales</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Order_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Order</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Order_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Order</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Sales User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Sales User</profile>
+    </profileActionOverrides>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Quote</tabs>
+    <tabs>standard-Order</tabs>
+    <tabs>standard-Contract</tabs>
+    <tabs>standard-report</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>GVTech_Sales_UtilityBar</utilityBar>
+</CustomApplication>
