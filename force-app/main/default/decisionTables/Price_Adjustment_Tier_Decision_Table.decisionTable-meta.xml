@@ -102,7 +102,7 @@
     <lastIncrementalSyncDate>2026-10-08 20:23:00</lastIncrementalSyncDate>
     <setupName>Volume Discount Entries</setupName>
     <sourceObject>PriceAdjustmentTier</sourceObject>
-    <status>Active</status>
+    <status>Inactive</status>
     <type>MediumVolume</type>
     <usageType>DefaultPricing</usageType>
 </DecisionTable>
