@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "ConversionFactor": 1,
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "USD",
+    "RoundingMethod": null,
+    "Scale": null,
+    "Sequence": 1,
+    "Status": "Active",
+    "Type": "Cost",
+    "UnitCode": "USD",
+    "UnitOfMeasureClassId": {
+      "$ref": "UnitOfMeasureClass",
+      "identity": "1BQhg0000003IGaGAM"
+    }
+  },
+  "format": 1,
+  "identity": "0hEhg0000004hWNEAY",
+  "identitySource": "field",
+  "name": "USD",
+  "object": "UnitOfMeasure"
+}

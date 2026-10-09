@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "BaseUnitOfMeasureId": {
+      "$ref": "UnitOfMeasure",
+      "identity": "0hEhg0000004hWOEAY"
+    },
+    "Code": "COUNT003",
+    "DefaultUnitOfMeasureId": {
+      "$ref": "UnitOfMeasure",
+      "identity": "0hEhg0000004hWOEAY"
+    },
+    "Description": null,
+    "Name": "Count",
+    "Status": "Active",
+    "Type": "Usage"
+  },
+  "format": 1,
+  "identity": "1BQhg0000003IGZGA2",
+  "identitySource": "field",
+  "name": "Count",
+  "object": "UnitOfMeasureClass"
+}
