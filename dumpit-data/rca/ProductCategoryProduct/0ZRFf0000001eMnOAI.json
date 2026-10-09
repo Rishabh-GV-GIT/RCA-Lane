@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "GBP",
+    "IsPrimaryCategory": false,
+    "ProductCategoryId": {
+      "$ref": "ProductCategory",
+      "identity": "0ZGhg00000060jiGAA"
+    },
+    "ProductId": {
+      "$ref": "Product2",
+      "identity": "01tFf00000AXEeMIAX"
+    }
+  },
+  "format": 1,
+  "identity": "0ZRFf0000001eMnOAI",
+  "identitySource": "field",
+  "name": "00000072",
+  "object": "ProductCategoryProduct"
+}

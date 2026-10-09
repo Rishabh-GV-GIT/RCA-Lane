@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "Code": "BUN001_04",
+    "CurrencyIsoCode": "INR",
+    "Description": "Support",
+    "MaxBundleComponents": null,
+    "MinBundleComponents": null,
+    "Name": "Support",
+    "ParentGroupId": null,
+    "ParentProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002Ioq1AAC"
+    },
+    "Sequence": 4
+  },
+  "format": 1,
+  "identity": "0y7hg0000004IuSAAU",
+  "identitySource": "field",
+  "name": "Support",
+  "object": "ProductComponentGroup"
+}

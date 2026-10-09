@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsDerived": false,
+    "Pricebook2Id": {
+      "$ref": "Pricebook2",
+      "identity": "standard"
+    },
+    "Product2Id": {
+      "$ref": "Product2",
+      "identity": "01thg000002IJOdAAO"
+    },
+    "ProductSellingModelId": {
+      "$ref": "ProductSellingModel",
+      "identity": "0jPhg00000041LmEAI"
+    },
+    "UnitPrice": 2564.1,
+    "UseStandardPrice": false
+  },
+  "format": 1,
+  "identity": "01uhg000000mM00AAE",
+  "identitySource": "field",
+  "name": "Consulting Services",
+  "object": "PricebookEntry"
+}

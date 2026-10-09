@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "Code": "BUN002_02",
+    "CurrencyIsoCode": "INR",
+    "Description": "Platform & Data",
+    "MaxBundleComponents": null,
+    "MinBundleComponents": null,
+    "Name": "Platform & Data",
+    "ParentGroupId": null,
+    "ParentProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002Ioq2AAC"
+    },
+    "Sequence": 2
+  },
+  "format": 1,
+  "identity": "0y7hg0000004IuUAAU",
+  "identitySource": "field",
+  "name": "Platform & Data",
+  "object": "ProductComponentGroup"
+}

@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "GBP",
+    "Name": "Testing Ramp"
+  },
+  "format": 1,
+  "identity": "a0Ghg0000032CubEAE",
+  "identitySource": "field",
+  "name": "Testing Ramp",
+  "object": "Ramped_Upliftment__c"
+}

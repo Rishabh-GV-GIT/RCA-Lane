@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "Code": "BUN006_01",
+    "CurrencyIsoCode": "INR",
+    "Description": "Nested",
+    "MaxBundleComponents": null,
+    "MinBundleComponents": null,
+    "Name": "Nested",
+    "ParentGroupId": null,
+    "ParentProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002Ioq6AAC"
+    },
+    "Sequence": 1
+  },
+  "format": 1,
+  "identity": "0y7hg0000004IuoAAE",
+  "identitySource": "field",
+  "name": "Nested",
+  "object": "ProductComponentGroup"
+}

@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "AttributeCategoryId": null,
+    "AttributeDefinitionId": {
+      "$ref": "AttributeDefinition",
+      "identity": "0tjhg0000004noXAAQ"
+    },
+    "AttributeNameOverride": "API Transaction Volume",
+    "CurrencyIsoCode": "INR",
+    "DefaultValue": null,
+    "Description": null,
+    "DisplayType": null,
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "API Transaction Volume",
+    "OverriddenInheritedAttributeId": null,
+    "ProductClassificationId": {
+      "$ref": "ProductClassification",
+      "identity": "11Bhg000008IAf2EAG"
+    },
+    "Sequence": null,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "11Chg00000UwjYREAZ",
+  "identitySource": "field",
+  "name": "API Transaction Volume",
+  "object": "ProductClassificationAttr"
+}

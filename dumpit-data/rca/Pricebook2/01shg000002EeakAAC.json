@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "CostBookId": null,
+    "CurrencyIsoCode": "USD",
+    "Description": null,
+    "IsActive": false,
+    "Name": "Standard",
+    "ValidFrom": null,
+    "ValidTo": null
+  },
+  "format": 1,
+  "identity": "01shg000002EeakAAC",
+  "identitySource": "field",
+  "name": "Standard",
+  "object": "Pricebook2"
+}

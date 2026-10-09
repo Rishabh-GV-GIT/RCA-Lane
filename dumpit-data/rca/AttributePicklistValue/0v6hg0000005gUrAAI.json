@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "SIGN",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Signature",
+    "IsDefault": false,
+    "Name": "Signature",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004edBAAQ"
+    },
+    "Sequence": null,
+    "Status": "Active",
+    "Value": "Signature"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005gUrAAI",
+  "identitySource": "field",
+  "name": "Signature",
+  "object": "AttributePicklistValue"
+}

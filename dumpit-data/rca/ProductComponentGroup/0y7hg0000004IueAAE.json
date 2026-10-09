@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "Code": "BUN004_03",
+    "CurrencyIsoCode": "INR",
+    "Description": "Cloud & Infrastructure",
+    "MaxBundleComponents": null,
+    "MinBundleComponents": null,
+    "Name": "Cloud & Infrastructure",
+    "ParentGroupId": null,
+    "ParentProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002Ioq4AAC"
+    },
+    "Sequence": 3
+  },
+  "format": 1,
+  "identity": "0y7hg0000004IueAAE",
+  "identitySource": "field",
+  "name": "Cloud & Infrastructure",
+  "object": "ProductComponentGroup"
+}

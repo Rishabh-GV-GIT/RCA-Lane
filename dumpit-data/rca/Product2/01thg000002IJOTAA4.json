@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "Allow_Custom_Price__c": false,
+    "AvailabilityDate": null,
+    "BasedOnId": null,
+    "Block_Pricing__c": false,
+    "ConfigureDuringSale": "Allowed",
+    "CurrencyIsoCode": "GBP",
+    "CustomDecompositionScope": null,
+    "DecompositionScope": null,
+    "Description": "Managed cloud backup storage service",
+    "DiscontinuedDate": null,
+    "DisplayUrl": null,
+    "EndOfLifeDate": null,
+    "ExternalId": null,
+    "Family": "Hosting",
+    "FulfillmentQtyCalcMethod": null,
+    "HelpText": null,
+    "IsActive": true,
+    "IsAssetizable": true,
+    "IsSoldOnlyWithOtherProds": false,
+    "Name": "Backup Storage",
+    "ProductCode": "TW-030",
+    "QuantityUnitOfMeasure": "Per Unit",
+    "RecordTypeId": {
+      "$recordType": "Commercial"
+    },
+    "StockKeepingUnit": null,
+    "Type": null,
+    "UnitOfMeasureId": null,
+    "UsageModelType": "Anchor"
+  },
+  "format": 1,
+  "identity": "01thg000002IJOTAA4",
+  "identitySource": "field",
+  "name": "Backup Storage",
+  "object": "Product2"
+}

@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "IsPrimaryCategory": false,
+    "ProductCategoryId": {
+      "$ref": "ProductCategory",
+      "identity": "0ZGhg00000060jkGAA"
+    },
+    "ProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002IJOHAA4"
+    }
+  },
+  "format": 1,
+  "identity": "0ZRhg0000005uETGAY",
+  "identitySource": "field",
+  "name": "00000042",
+  "object": "ProductCategoryProduct"
+}

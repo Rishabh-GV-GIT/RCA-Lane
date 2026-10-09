@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": null,
+    "Name": "Employee Count",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004ei1AAA",
+  "identitySource": "field",
+  "name": "Employee Count",
+  "object": "AttributePicklist"
+}

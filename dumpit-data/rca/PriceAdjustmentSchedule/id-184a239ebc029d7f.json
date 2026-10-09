@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "AdjustmentMethod": "Range",
+    "CurrencyIsoCode": "GBP",
+    "Description": null,
+    "EffectiveFrom": "2024-07-08T06:11:00.000Z",
+    "EffectiveTo": null,
+    "IsActive": true,
+    "Name": "Standard Price Adjustment Tier",
+    "Pricebook2Id": {
+      "$ref": "Pricebook2",
+      "identity": "standard"
+    },
+    "ScheduleType": "Volume"
+  },
+  "format": 1,
+  "identity": "key:[\"Standard Price Adjustment Tier\"]",
+  "identitySource": "standard",
+  "name": "Standard Price Adjustment Tier",
+  "object": "PriceAdjustmentSchedule"
+}

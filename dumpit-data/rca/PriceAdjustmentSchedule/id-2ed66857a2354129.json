@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "AdjustmentMethod": "Range",
+    "CurrencyIsoCode": "GBP",
+    "Description": null,
+    "EffectiveFrom": "2026-10-05T05:08:27.000Z",
+    "EffectiveTo": null,
+    "IsActive": false,
+    "Name": "Standard Bundle Based Adjustment",
+    "Pricebook2Id": {
+      "$ref": "Pricebook2",
+      "identity": "standard"
+    },
+    "ScheduleType": "Bundle"
+  },
+  "format": 1,
+  "identity": "key:[\"Standard Bundle Based Adjustment\"]",
+  "identitySource": "standard",
+  "name": "Standard Bundle Based Adjustment",
+  "object": "PriceAdjustmentSchedule"
+}

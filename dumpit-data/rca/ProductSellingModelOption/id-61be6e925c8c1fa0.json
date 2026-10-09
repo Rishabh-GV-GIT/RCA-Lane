@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "IsDefault": true,
+    "Product2Id": {
+      "$ref": "Product2",
+      "identity": "01thg000002IJOEAA4"
+    },
+    "ProductSellingModelId": {
+      "$ref": "ProductSellingModel",
+      "identity": "0jPhg00000041LnEAI"
+    },
+    "ProrationPolicyId": {
+      "$ref": "ProrationPolicy",
+      "identity": "key:[\"Default Proration Policy\"]"
+    }
+  },
+  "format": 1,
+  "identity": "key:[\"01thg000002IJOEAA4\",\"0jPhg00000041LnEAI\"]",
+  "identitySource": "standard",
+  "name": "PSMO-000000014",
+  "object": "ProductSellingModelOption"
+}

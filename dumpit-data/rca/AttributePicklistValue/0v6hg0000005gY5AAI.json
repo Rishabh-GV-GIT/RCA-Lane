@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "PVTCL",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Private Cloud",
+    "IsDefault": false,
+    "Name": "Private Cloud",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004eenAAA"
+    },
+    "Sequence": null,
+    "Status": "Active",
+    "Value": "Private Cloud"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005gY5AAI",
+  "identitySource": "field",
+  "name": "Private Cloud",
+  "object": "AttributePicklistValue"
+}

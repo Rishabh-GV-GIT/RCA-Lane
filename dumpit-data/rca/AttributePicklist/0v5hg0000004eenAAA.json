@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": null,
+    "Name": "Deployment Model",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004eenAAA",
+  "identitySource": "field",
+  "name": "Deployment Model",
+  "object": "AttributePicklist"
+}

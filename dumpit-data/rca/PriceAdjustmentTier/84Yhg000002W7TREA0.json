@@ -1,0 +1,28 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "GBP",
+    "EffectiveFrom": "2026-09-28T06:30:00.000Z",
+    "EffectiveTo": null,
+    "LowerBound": 31,
+    "PriceAdjustmentScheduleId": {
+      "$ref": "PriceAdjustmentSchedule",
+      "identity": "key:[\"Standard Price Adjustment Tier\"]"
+    },
+    "Product2Id": {
+      "$ref": "Product2",
+      "identity": "01thg000002IJO4AAO"
+    },
+    "ProductSellingModelId": {
+      "$ref": "ProductSellingModel",
+      "identity": "0jPhg00000041LnEAI"
+    },
+    "TierType": "OverrideAmount",
+    "TierValue": 6000,
+    "UpperBound": null
+  },
+  "format": 1,
+  "identity": "84Yhg000002W7TREA0",
+  "identitySource": "field",
+  "name": "PAT-0000000004",
+  "object": "PriceAdjustmentTier"
+}

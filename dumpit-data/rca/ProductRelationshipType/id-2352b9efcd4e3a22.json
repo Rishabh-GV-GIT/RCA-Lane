@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "AssociatedProductRoleCat": "BundleComponent",
+    "MainProductRoleCat": "Bundle",
+    "Name": "Bundle to Bundle Component Relationship"
+  },
+  "format": 1,
+  "identity": "key:[\"Bundle to Bundle Component Relationship\"]",
+  "identitySource": "standard",
+  "name": "Bundle to Bundle Component Relationship",
+  "object": "ProductRelationshipType"
+}

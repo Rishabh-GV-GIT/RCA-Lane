@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "Code": "BUN004_01",
+    "CurrencyIsoCode": "INR",
+    "Description": "Core Software",
+    "MaxBundleComponents": null,
+    "MinBundleComponents": null,
+    "Name": "Core Software",
+    "ParentGroupId": null,
+    "ParentProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002Ioq4AAC"
+    },
+    "Sequence": 1
+  },
+  "format": 1,
+  "identity": "0y7hg0000004IucAAE",
+  "identitySource": "field",
+  "name": "Core Software",
+  "object": "ProductComponentGroup"
+}

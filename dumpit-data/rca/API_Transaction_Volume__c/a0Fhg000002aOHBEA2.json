@@ -1,0 +1,10 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "GBP"
+  },
+  "format": 1,
+  "identity": "a0Fhg000002aOHBEA2",
+  "identitySource": "field",
+  "name": "ATV-0001",
+  "object": "API_Transaction_Volume__c"
+}

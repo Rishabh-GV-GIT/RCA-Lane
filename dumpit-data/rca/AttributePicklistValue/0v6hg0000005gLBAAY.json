@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "STD",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Standard",
+    "IsDefault": true,
+    "Name": "Standard",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004ebZAAQ"
+    },
+    "Sequence": null,
+    "Status": "Active",
+    "Value": "Standard"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005gLBAAY",
+  "identitySource": "field",
+  "name": "Standard",
+  "object": "AttributePicklistValue"
+}

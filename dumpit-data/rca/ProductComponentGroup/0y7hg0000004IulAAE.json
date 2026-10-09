@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "Code": "BUN005_04",
+    "CurrencyIsoCode": "INR",
+    "Description": "Backup",
+    "MaxBundleComponents": null,
+    "MinBundleComponents": null,
+    "Name": "Backup",
+    "ParentGroupId": null,
+    "ParentProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002Ioq5AAC"
+    },
+    "Sequence": 4
+  },
+  "format": 1,
+  "identity": "0y7hg0000004IulAAE",
+  "identitySource": "field",
+  "name": "Backup",
+  "object": "ProductComponentGroup"
+}

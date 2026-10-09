@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "Code": null,
+    "CurrencyIsoCode": "INR",
+    "DataType": "Number",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "User_Count",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "User Count",
+    "Name": "User Count",
+    "PicklistId": null,
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasureId": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "0tjhg0000004nIHAAY",
+  "identitySource": "field",
+  "name": "User Count",
+  "object": "AttributeDefinition"
+}
