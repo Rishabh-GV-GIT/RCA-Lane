@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gives access to templates and document generation features using Document Builder.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Document Builder User-Custom</label>
+    <license>DocumentBuilderUserPsl</license>
+</PermissionSet>
