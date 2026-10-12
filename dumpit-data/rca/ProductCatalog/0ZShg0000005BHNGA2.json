@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "CatalogType": "Sales",
+    "Code": "TW-CATALOG-001",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "EffectiveEndDate": null,
+    "EffectiveStartDate": "2025-03-01T06:30:00.000Z",
+    "Name": "GVTech"
+  },
+  "format": 1,
+  "identity": "0ZShg0000005BHNGA2",
+  "identitySource": "field",
+  "name": "GVTech",
+  "object": "ProductCatalog"
+}

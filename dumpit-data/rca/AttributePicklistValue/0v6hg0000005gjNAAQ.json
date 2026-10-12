@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "EC-03",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "201-500",
+    "IsDefault": false,
+    "Name": "201-500",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004ei1AAA"
+    },
+    "Sequence": null,
+    "Status": "Active",
+    "Value": "201-500"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005gjNAAQ",
+  "identitySource": "field",
+  "name": "201-500",
+  "object": "AttributePicklistValue"
+}

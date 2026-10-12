@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "AssociatedProductRoleCat": "ClassificationComponent",
+    "GlobalKey": "BundleToProductClassificationComponentRelationship",
+    "MainProductRoleCat": "Bundle",
+    "Name": "Bundle to Product Classification Component Relationship"
+  },
+  "format": 1,
+  "identity": "key:[\"Bundle to Product Classification Component Relationship\"]",
+  "identitySource": "standard",
+  "name": "Bundle to Product Classification Component Relationship",
+  "object": "ProductRelationshipType"
+}

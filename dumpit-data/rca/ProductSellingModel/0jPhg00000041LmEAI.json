@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "DoesAutoRenewAssetByDefault": false,
+    "Name": "One Time",
+    "PricingTerm": null,
+    "PricingTermUnit": null,
+    "SellingModelType": "OneTime",
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "0jPhg00000041LmEAI",
+  "identitySource": "field",
+  "name": "One Time",
+  "object": "ProductSellingModel"
+}

@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "DoesAutoRenewAssetByDefault": false,
+    "Name": "Evergreen - Quarterly",
+    "PricingTerm": 1,
+    "PricingTermUnit": "Quarterly",
+    "SellingModelType": "Evergreen",
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "0jPhg00000041LiEAI",
+  "identitySource": "field",
+  "name": "Evergreen - Quarterly",
+  "object": "ProductSellingModel"
+}

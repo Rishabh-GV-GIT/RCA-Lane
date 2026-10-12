@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": null,
+    "Name": "Tier Type",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004edBAAQ",
+  "identitySource": "field",
+  "name": "Tier Type",
+  "object": "AttributePicklist"
+}
