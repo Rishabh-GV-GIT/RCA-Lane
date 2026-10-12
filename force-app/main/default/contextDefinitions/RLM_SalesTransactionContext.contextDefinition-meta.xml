@@ -681,14 +681,6 @@
                     <inheritedFrom>SalesTransactionContext__stdctx/version/OrderEntitiesMapping/SalesTransaction/TotalTaxAmount__std</inheritedFrom>
                 </contextAttributeMappings>
                 <contextAttributeMappings>
-                    <contextAttrHydrationDetails>
-                        <objectName>Order</objectName>
-                        <queryAttribute>Quote_End_Date__c</queryAttribute>
-                    </contextAttrHydrationDetails>
-                    <contextAttribute>QuoteEndDate__c</contextAttribute>
-                    <contextInputAttributeName>QuoteEndDate__c</contextInputAttributeName>
-                </contextAttributeMappings>
-                <contextAttributeMappings>
                     <contextAttribute>IsContextInUse__std</contextAttribute>
                     <contextInputAttributeName>IsContextInUse__std</contextInputAttributeName>
                     <inheritedFrom>SalesTransactionContext__stdctx/version/OrderEntitiesMapping/SalesTransaction/IsContextInUse__std</inheritedFrom>
@@ -2109,22 +2101,6 @@
                 <contextAttributeMappings>
                     <contextAttrHydrationDetails>
                         <objectName>OrderItem</objectName>
-                        <queryAttribute>Applied_End_Date__c</queryAttribute>
-                    </contextAttrHydrationDetails>
-                    <contextAttribute>AppliedEndDate__c</contextAttribute>
-                    <contextInputAttributeName>AppliedEndDate__c</contextInputAttributeName>
-                </contextAttributeMappings>
-                <contextAttributeMappings>
-                    <contextAttrHydrationDetails>
-                        <objectName>OrderItem</objectName>
-                        <queryAttribute>Quote_End_date_On_Line__c</queryAttribute>
-                    </contextAttrHydrationDetails>
-                    <contextAttribute>QuoteEndDateOnQLI__c</contextAttribute>
-                    <contextInputAttributeName>QuoteEndDateOnQLI__c</contextInputAttributeName>
-                </contextAttributeMappings>
-                <contextAttributeMappings>
-                    <contextAttrHydrationDetails>
-                        <objectName>OrderItem</objectName>
                         <queryAttribute>API_Transaction_Volume__c</queryAttribute>
                     </contextAttrHydrationDetails>
                     <contextAttribute>API_Transaction_Volume__c</contextAttribute>
@@ -2228,6 +2204,30 @@
                     <contextAttribute>ItemApplUnitPriceUpliftPct__std</contextAttribute>
                     <contextInputAttributeName>ItemApplUnitPriceUpliftPct__std</contextInputAttributeName>
                     <inheritedFrom>SalesTransactionContext__stdctx/version/OrderEntitiesMapping/SalesTransactionItem/ItemApplUnitPriceUpliftPct__std</inheritedFrom>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>OrderItem</objectName>
+                        <queryAttribute>Original_Quantity__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>Original_Quantity__c</contextAttribute>
+                    <contextInputAttributeName>Original_Quantity__c</contextInputAttributeName>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>OrderItem</objectName>
+                        <queryAttribute>GroupOrder__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>GroupOrder__c</contextAttribute>
+                    <contextInputAttributeName>GroupOrder__c</contextInputAttributeName>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>OrderItem</objectName>
+                        <queryAttribute>Renewal_Price_Reset__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>RenewalPriceReset__c</contextAttribute>
+                    <contextInputAttributeName>RenewalPriceReset__c</contextInputAttributeName>
                 </contextAttributeMappings>
                 <contextNode>SalesTransactionItem</contextNode>
                 <inheritedFrom>SalesTransactionContext__stdctx/version/OrderEntitiesMapping/SalesTransactionItem</inheritedFrom>
@@ -5415,14 +5415,6 @@
                 <contextAttributeMappings>
                     <contextAttrHydrationDetails>
                         <objectName>Quote</objectName>
-                        <queryAttribute>End_Date__c</queryAttribute>
-                    </contextAttrHydrationDetails>
-                    <contextAttribute>QuoteEndDate__c</contextAttribute>
-                    <contextInputAttributeName>QuoteEndDate__c</contextInputAttributeName>
-                </contextAttributeMappings>
-                <contextAttributeMappings>
-                    <contextAttrHydrationDetails>
-                        <objectName>Quote</objectName>
                         <queryAttribute>Customer_Tier__c</queryAttribute>
                     </contextAttrHydrationDetails>
                     <contextAttribute>Customer_Tier__c</contextAttribute>
@@ -5442,6 +5434,14 @@
                     <contextAttribute>IsContextInUse__std</contextAttribute>
                     <contextInputAttributeName>IsContextInUse__std</contextInputAttributeName>
                     <inheritedFrom>SalesTransactionContext__stdctx/version/QuoteEntitiesMapping/SalesTransaction/IsContextInUse__std</inheritedFrom>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>Quote</objectName>
+                        <queryAttribute>End_Date__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>QuoteEndDate__c</contextAttribute>
+                    <contextInputAttributeName>QuoteEndDate__c</contextInputAttributeName>
                 </contextAttributeMappings>
                 <contextNode>SalesTransaction</contextNode>
                 <inheritedFrom>SalesTransactionContext__stdctx/version/QuoteEntitiesMapping/SalesTransaction</inheritedFrom>
@@ -6785,22 +6785,6 @@
                 <contextAttributeMappings>
                     <contextAttrHydrationDetails>
                         <objectName>QuoteLineItem</objectName>
-                        <queryAttribute>Applied_End_Date__c</queryAttribute>
-                    </contextAttrHydrationDetails>
-                    <contextAttribute>AppliedEndDate__c</contextAttribute>
-                    <contextInputAttributeName>AppliedEndDate__c</contextInputAttributeName>
-                </contextAttributeMappings>
-                <contextAttributeMappings>
-                    <contextAttrHydrationDetails>
-                        <objectName>QuoteLineItem</objectName>
-                        <queryAttribute>Quote_End_date_On_Line__c</queryAttribute>
-                    </contextAttrHydrationDetails>
-                    <contextAttribute>QuoteEndDateOnQLI__c</contextAttribute>
-                    <contextInputAttributeName>QuoteEndDateOnQLI__c</contextInputAttributeName>
-                </contextAttributeMappings>
-                <contextAttributeMappings>
-                    <contextAttrHydrationDetails>
-                        <objectName>QuoteLineItem</objectName>
                         <queryAttribute>API_Transaction_Volume__c</queryAttribute>
                     </contextAttrHydrationDetails>
                     <contextAttribute>API_Transaction_Volume__c</contextAttribute>
@@ -6940,6 +6924,46 @@
                     <contextAttribute>ProductClass__std</contextAttribute>
                     <contextInputAttributeName>ProductClass__std</contextInputAttributeName>
                     <inheritedFrom>SalesTransactionContext__stdctx/version/QuoteEntitiesMapping/SalesTransactionItem/ProductClass__std</inheritedFrom>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>QuoteLineItem</objectName>
+                        <queryAttribute>ManualPrice__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>QuoteManualPrice__c</contextAttribute>
+                    <contextInputAttributeName>QuoteManualPrice__c</contextInputAttributeName>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>QuoteLineItem</objectName>
+                        <queryAttribute>Applied_End_Date__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>AppliedEndDate__c</contextAttribute>
+                    <contextInputAttributeName>AppliedEndDate__c</contextInputAttributeName>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>QuoteLineItem</objectName>
+                        <queryAttribute>Applied_Start_Date__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>AppliedStartDate__c</contextAttribute>
+                    <contextInputAttributeName>AppliedStartDate__c</contextInputAttributeName>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>QuoteLineItem</objectName>
+                        <queryAttribute>Quote_End_date_On_Line__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>QuoteEndDateOnQLI__c</contextAttribute>
+                    <contextInputAttributeName>QuoteEndDateOnQLI__c</contextInputAttributeName>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>QuoteLineItem</objectName>
+                        <queryAttribute>StartDateonQuote__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>QuoteStartDateOnQLI__c</contextAttribute>
+                    <contextInputAttributeName>QuoteStartDateOnQLI__c</contextInputAttributeName>
                 </contextAttributeMappings>
                 <contextNode>SalesTransactionItem</contextNode>
                 <inheritedFrom>SalesTransactionContext__stdctx/version/QuoteEntitiesMapping/SalesTransactionItem</inheritedFrom>
@@ -9741,6 +9765,14 @@
                     <contextAttribute>ASPPricingContractId__std</contextAttribute>
                     <contextInputAttributeName>ASPPricingContractId__std</contextInputAttributeName>
                     <inheritedFrom>SalesTransactionContext__stdctx/version/AssetEntitiesMapping/AssetStatePeriod/ASPPricingContractId__std</inheritedFrom>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>AssetStatePeriod</objectName>
+                        <queryAttribute>ManualPrice__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>AssetManualPrice__c</contextAttribute>
+                    <contextInputAttributeName>AssetManualPrice__c</contextInputAttributeName>
                 </contextAttributeMappings>
                 <contextNode>AssetStatePeriod</contextNode>
                 <inheritedFrom>SalesTransactionContext__stdctx/version/AssetEntitiesMapping/AssetStatePeriod</inheritedFrom>
@@ -17080,6 +17112,17 @@
                         <contextQueryAttribute>AssetStatePeriod_QA_DE_AssetAllowCustomPrice__c</contextQueryAttribute>
                     </ctxAttrHydrationCtxs>
                 </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttribute>QuoteManualPrice__c</contextAttribute>
+                    <contextInputAttributeName>QuoteManualPrice__c</contextInputAttributeName>
+                    <ctxAttrHydrationCtxs>
+                        <contextQueryAttribute>AssetStatePeriod_QA_DE_AssetManualPrice__c</contextQueryAttribute>
+                    </ctxAttrHydrationCtxs>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttribute>UnitPrice</contextAttribute>
+                    <contextInputAttributeName>UnitPrice</contextInputAttributeName>
+                </contextAttributeMappings>
                 <contextNode>SalesTransactionItem</contextNode>
                 <mappedContextDefinition>RLM_SalesTransactionContext</mappedContextDefinition>
                 <object>AssetStatePeriod</object>
@@ -17106,6 +17149,13 @@
                     <contextInputAttributeName>AssetAllowCustomPrice__c</contextInputAttributeName>
                     <ctxAttrHydrationCtxs>
                         <contextQueryAttribute>SalesTransactionItem_QA_DE_AllowCustomPrice__c</contextQueryAttribute>
+                    </ctxAttrHydrationCtxs>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttribute>AssetManualPrice__c</contextAttribute>
+                    <contextInputAttributeName>AssetManualPrice__c</contextInputAttributeName>
+                    <ctxAttrHydrationCtxs>
+                        <contextQueryAttribute>SalesTransactionItem_QA_DE_UnitPrice</contextQueryAttribute>
                     </ctxAttrHydrationCtxs>
                 </contextAttributeMappings>
                 <contextNode>AssetStatePeriod</contextNode>
@@ -20934,6 +20984,45 @@
                 <transient>true</transient>
                 <value>false</value>
             </contextAttributes>
+            <contextAttributes>
+                <contextTags>
+                    <title>QuoteManualPrice__c</title>
+                </contextTags>
+                <customMappingAllowed>false</customMappingAllowed>
+                <dataType>currency</dataType>
+                <fieldType>inputoutput</fieldType>
+                <key>false</key>
+                <localizationDisabled>false</localizationDisabled>
+                <title>QuoteManualPrice__c</title>
+                <transient>false</transient>
+                <value>false</value>
+            </contextAttributes>
+            <contextAttributes>
+                <contextTags>
+                    <title>AppliedStartDate__c</title>
+                </contextTags>
+                <customMappingAllowed>false</customMappingAllowed>
+                <dataType>datetime</dataType>
+                <fieldType>inputoutput</fieldType>
+                <key>false</key>
+                <localizationDisabled>false</localizationDisabled>
+                <title>AppliedStartDate__c</title>
+                <transient>false</transient>
+                <value>false</value>
+            </contextAttributes>
+            <contextAttributes>
+                <contextTags>
+                    <title>QuoteStartDateOnQLI__c</title>
+                </contextTags>
+                <customMappingAllowed>false</customMappingAllowed>
+                <dataType>datetime</dataType>
+                <fieldType>inputoutput</fieldType>
+                <key>false</key>
+                <localizationDisabled>false</localizationDisabled>
+                <title>QuoteStartDateOnQLI__c</title>
+                <transient>false</transient>
+                <value>false</value>
+            </contextAttributes>
             <contextTags>
                 <inheritedFrom>SalesTransactionContext__stdctx/version/SalesTransaction/SalesTransactionItem/SalesTransactionItem</inheritedFrom>
                 <title>SalesTransactionItem</title>
@@ -24163,6 +24252,19 @@
                 <key>false</key>
                 <localizationDisabled>false</localizationDisabled>
                 <title>ASPPricingContractId__std</title>
+                <transient>false</transient>
+                <value>false</value>
+            </contextAttributes>
+            <contextAttributes>
+                <contextTags>
+                    <title>AssetManualPrice__c</title>
+                </contextTags>
+                <customMappingAllowed>false</customMappingAllowed>
+                <dataType>currency</dataType>
+                <fieldType>inputoutput</fieldType>
+                <key>false</key>
+                <localizationDisabled>false</localizationDisabled>
+                <title>AssetManualPrice__c</title>
                 <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
@@ -29507,7 +29609,7 @@
         </contextNodes>
         <isActive>true</isActive>
         <startDate>2024-08-05 00:00:00</startDate>
-        <versionNumber>6</versionNumber>
+        <versionNumber>10</versionNumber>
     </contextDefinitionVersions>
     <contextTtl>10</contextTtl>
     <hasSystemTags>false</hasSystemTags>
@@ -29516,6 +29618,6 @@
     <isProtected>false</isProtected>
     <isTransformationEnabled>false</isTransformationEnabled>
     <masterLabel>Rev_SalesTransactionContext</masterLabel>
-    <releaseVersion>264.6.2</releaseVersion>
+    <releaseVersion>264.7.5</releaseVersion>
     <title>Rev_SalesTransactionContext</title>
 </ContextDefinition>
