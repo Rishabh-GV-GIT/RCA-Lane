@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "ArePartialPeriodsAllowed": true,
+    "Name": "Default Proration Policy",
+    "ProrationPolicyType": "StandardTimePeriods",
+    "RemainderStrategy": "AddToLast"
+  },
+  "format": 1,
+  "identity": "key:[\"Default Proration Policy\"]",
+  "identitySource": "standard",
+  "name": "Default Proration Policy",
+  "object": "ProrationPolicy"
+}

@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "Allow_Custom_Price__c": false,
+    "AvailabilityDate": null,
+    "BasedOnId": null,
+    "Block_Pricing__c": false,
+    "ConfigureDuringSale": "Allowed",
+    "CurrencyIsoCode": "GBP",
+    "CustomDecompositionScope": null,
+    "DecompositionScope": null,
+    "Description": "Financial management and accounting platform",
+    "DiscontinuedDate": null,
+    "DisplayUrl": null,
+    "EndOfLifeDate": null,
+    "ExternalId": null,
+    "Family": "Software",
+    "FulfillmentQtyCalcMethod": null,
+    "HelpText": null,
+    "IsActive": true,
+    "IsAssetizable": true,
+    "IsSoldOnlyWithOtherProds": false,
+    "Name": "Finance Management",
+    "ProductCode": "TW-013",
+    "QuantityUnitOfMeasure": "Per User",
+    "RecordTypeId": {
+      "$recordType": "Commercial"
+    },
+    "StockKeepingUnit": null,
+    "Type": null,
+    "UnitOfMeasureId": null,
+    "UsageModelType": null
+  },
+  "format": 1,
+  "identity": "01thg000002IJODAA4",
+  "identitySource": "field",
+  "name": "Finance Management",
+  "object": "Product2"
+}

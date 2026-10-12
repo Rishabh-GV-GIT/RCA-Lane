@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "Code": null,
+    "CurrencyIsoCode": "INR",
+    "DataType": "Checkbox",
+    "DefaultHelpText": null,
+    "DefaultValue": "false",
+    "Description": null,
+    "DeveloperName": "Inhouse_Hosting",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Inhouse Hosting",
+    "Name": "Inhouse Hosting",
+    "PicklistId": null,
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasureId": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "0tjhg0000004nLVAAY",
+  "identitySource": "field",
+  "name": "Inhouse Hosting",
+  "object": "AttributeDefinition"
+}

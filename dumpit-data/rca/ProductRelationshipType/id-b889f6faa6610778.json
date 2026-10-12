@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "AssociatedProductRoleCat": "SetComponent",
+    "GlobalKey": "SetToSetComponentRelationship",
+    "MainProductRoleCat": "Set",
+    "Name": "Set to Set Component Relationship"
+  },
+  "format": 1,
+  "identity": "key:[\"Set to Set Component Relationship\"]",
+  "identitySource": "standard",
+  "name": "Set to Set Component Relationship",
+  "object": "ProductRelationshipType"
+}

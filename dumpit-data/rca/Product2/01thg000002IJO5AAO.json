@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "Allow_Custom_Price__c": false,
+    "AvailabilityDate": null,
+    "BasedOnId": null,
+    "Block_Pricing__c": false,
+    "ConfigureDuringSale": "Allowed",
+    "CurrencyIsoCode": "GBP",
+    "CustomDecompositionScope": null,
+    "DecompositionScope": null,
+    "Description": "Advanced analytics and dashboards",
+    "DiscontinuedDate": null,
+    "DisplayUrl": null,
+    "EndOfLifeDate": null,
+    "ExternalId": null,
+    "Family": "Software",
+    "FulfillmentQtyCalcMethod": null,
+    "HelpText": null,
+    "IsActive": true,
+    "IsAssetizable": true,
+    "IsSoldOnlyWithOtherProds": false,
+    "Name": "Analytics Professional",
+    "ProductCode": "TW-005",
+    "QuantityUnitOfMeasure": "Per User",
+    "RecordTypeId": {
+      "$recordType": "Commercial"
+    },
+    "StockKeepingUnit": null,
+    "Type": null,
+    "UnitOfMeasureId": null,
+    "UsageModelType": null
+  },
+  "format": 1,
+  "identity": "01thg000002IJO5AAO",
+  "identitySource": "field",
+  "name": "Analytics Professional",
+  "object": "Product2"
+}

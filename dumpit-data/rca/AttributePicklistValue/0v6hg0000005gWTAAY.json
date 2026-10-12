@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "PUBCL",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Public Cloud",
+    "IsDefault": false,
+    "Name": "Public Cloud",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004eenAAA"
+    },
+    "Sequence": null,
+    "Status": "Active",
+    "Value": "Public Cloud"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005gWTAAY",
+  "identitySource": "field",
+  "name": "Public Cloud",
+  "object": "AttributePicklistValue"
+}

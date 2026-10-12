@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "Allow_Custom_Price__c": false,
+    "AvailabilityDate": null,
+    "BasedOnId": null,
+    "Block_Pricing__c": false,
+    "ConfigureDuringSale": "Allowed",
+    "CurrencyIsoCode": "GBP",
+    "CustomDecompositionScope": null,
+    "DecompositionScope": null,
+    "Description": null,
+    "DiscontinuedDate": null,
+    "DisplayUrl": null,
+    "EndOfLifeDate": null,
+    "ExternalId": null,
+    "Family": null,
+    "FulfillmentQtyCalcMethod": null,
+    "HelpText": null,
+    "IsActive": true,
+    "IsAssetizable": true,
+    "IsSoldOnlyWithOtherProds": false,
+    "Name": "Data & AI Platform",
+    "ProductCode": "BUN-004",
+    "QuantityUnitOfMeasure": null,
+    "RecordTypeId": {
+      "$recordType": "Commercial"
+    },
+    "StockKeepingUnit": null,
+    "Type": "Bundle",
+    "UnitOfMeasureId": null,
+    "UsageModelType": null
+  },
+  "format": 1,
+  "identity": "01thg000002Ioq4AAC",
+  "identitySource": "field",
+  "name": "Data & AI Platform",
+  "object": "Product2"
+}
