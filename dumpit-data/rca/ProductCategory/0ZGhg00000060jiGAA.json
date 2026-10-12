@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "CatalogId": {
+      "$ref": "ProductCatalog",
+      "identity": "0ZShg0000005BHNGA2"
+    },
+    "Code": "TW-CAT-0002",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "IsNavigational": true,
+    "Name": "Business Applications",
+    "ParentCategoryId": null,
+    "SortOrder": 20
+  },
+  "format": 1,
+  "identity": "0ZGhg00000060jiGAA",
+  "identitySource": "field",
+  "name": "Business Applications",
+  "object": "ProductCategory"
+}

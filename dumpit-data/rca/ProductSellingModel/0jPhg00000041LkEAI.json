@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "DoesAutoRenewAssetByDefault": false,
+    "Name": "Term Based - Semi-Annual",
+    "PricingTerm": 1,
+    "PricingTermUnit": "Semi-Annual",
+    "SellingModelType": "TermDefined",
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "0jPhg00000041LkEAI",
+  "identitySource": "field",
+  "name": "Term Based - Semi-Annual",
+  "object": "ProductSellingModel"
+}

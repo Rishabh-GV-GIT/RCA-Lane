@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "Allow_Custom_Price__c": false,
+    "AvailabilityDate": null,
+    "BasedOnId": null,
+    "Block_Pricing__c": false,
+    "ConfigureDuringSale": "Allowed",
+    "CurrencyIsoCode": "GBP",
+    "CustomDecompositionScope": null,
+    "DecompositionScope": null,
+    "Description": null,
+    "DiscontinuedDate": null,
+    "DisplayUrl": null,
+    "EndOfLifeDate": null,
+    "ExternalId": null,
+    "Family": "Hardware",
+    "FulfillmentQtyCalcMethod": null,
+    "HelpText": null,
+    "IsActive": true,
+    "IsAssetizable": true,
+    "IsSoldOnlyWithOtherProds": false,
+    "Name": "QuantumEdge Neural Hub",
+    "ProductCode": "QE-NH",
+    "QuantityUnitOfMeasure": null,
+    "RecordTypeId": {
+      "$recordType": "Commercial"
+    },
+    "StockKeepingUnit": null,
+    "Type": null,
+    "UnitOfMeasureId": null,
+    "UsageModelType": null
+  },
+  "format": 1,
+  "identity": "01thg000002QAPBAA4",
+  "identitySource": "field",
+  "name": "QuantumEdge Neural Hub",
+  "object": "Product2"
+}

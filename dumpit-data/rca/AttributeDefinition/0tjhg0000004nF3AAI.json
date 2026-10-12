@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "Code": null,
+    "CurrencyIsoCode": "INR",
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "Edition",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Edition",
+    "Name": "Edition",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004ebZAAQ"
+    },
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasureId": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "0tjhg0000004nF3AAI",
+  "identitySource": "field",
+  "name": "Edition",
+  "object": "AttributeDefinition"
+}

@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "DoesAutoRenewAssetByDefault": false,
+    "Name": "Term Based - Quarterly",
+    "PricingTerm": 1,
+    "PricingTermUnit": "Quarterly",
+    "SellingModelType": "TermDefined",
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "0jPhg00000041LjEAI",
+  "identitySource": "field",
+  "name": "Term Based - Quarterly",
+  "object": "ProductSellingModel"
+}

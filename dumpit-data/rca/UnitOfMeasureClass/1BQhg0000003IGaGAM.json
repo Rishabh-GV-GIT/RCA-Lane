@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "BaseUnitOfMeasureId": {
+      "$ref": "UnitOfMeasure",
+      "identity": "0hEhg0000004hWNEAY"
+    },
+    "Code": "CURR004",
+    "DefaultUnitOfMeasureId": {
+      "$ref": "UnitOfMeasure",
+      "identity": "0hEhg0000004hWNEAY"
+    },
+    "Description": null,
+    "Name": "Currency",
+    "Status": "Active",
+    "Type": "Currency"
+  },
+  "format": 1,
+  "identity": "1BQhg0000003IGaGAM",
+  "identitySource": "field",
+  "name": "Currency",
+  "object": "UnitOfMeasureClass"
+}

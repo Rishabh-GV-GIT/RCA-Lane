@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "Code": "BUN005_03",
+    "CurrencyIsoCode": "INR",
+    "Description": "Security",
+    "MaxBundleComponents": null,
+    "MinBundleComponents": null,
+    "Name": "Security",
+    "ParentGroupId": null,
+    "ParentProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002Ioq5AAC"
+    },
+    "Sequence": 3
+  },
+  "format": 1,
+  "identity": "0y7hg0000004IukAAE",
+  "identitySource": "field",
+  "name": "Security",
+  "object": "ProductComponentGroup"
+}

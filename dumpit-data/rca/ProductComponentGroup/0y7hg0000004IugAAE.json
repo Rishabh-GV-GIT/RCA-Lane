@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "Code": "BUN004_05",
+    "CurrencyIsoCode": "INR",
+    "Description": "Services",
+    "MaxBundleComponents": null,
+    "MinBundleComponents": null,
+    "Name": "Services",
+    "ParentGroupId": null,
+    "ParentProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002Ioq4AAC"
+    },
+    "Sequence": 5
+  },
+  "format": 1,
+  "identity": "0y7hg0000004IugAAE",
+  "identitySource": "field",
+  "name": "Services",
+  "object": "ProductComponentGroup"
+}

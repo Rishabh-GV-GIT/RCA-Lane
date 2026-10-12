@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "DoesAutoRenewAssetByDefault": false,
+    "Name": "Term Based - Yearly",
+    "PricingTerm": 1,
+    "PricingTermUnit": "Annual",
+    "SellingModelType": "TermDefined",
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "0jPhg00000041LlEAI",
+  "identitySource": "field",
+  "name": "Term Based - Yearly",
+  "object": "ProductSellingModel"
+}
