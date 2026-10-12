@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "Allow_Custom_Price__c": false,
+    "AvailabilityDate": null,
+    "BasedOnId": null,
+    "Block_Pricing__c": false,
+    "ConfigureDuringSale": "Allowed",
+    "CurrencyIsoCode": "GBP",
+    "CustomDecompositionScope": null,
+    "DecompositionScope": null,
+    "Description": "Business workflow automation platform",
+    "DiscontinuedDate": null,
+    "DisplayUrl": null,
+    "EndOfLifeDate": null,
+    "ExternalId": null,
+    "Family": "Software",
+    "FulfillmentQtyCalcMethod": null,
+    "HelpText": null,
+    "IsActive": true,
+    "IsAssetizable": true,
+    "IsSoldOnlyWithOtherProds": false,
+    "Name": "Workflow Automation",
+    "ProductCode": "TW-012",
+    "QuantityUnitOfMeasure": "Per User",
+    "RecordTypeId": {
+      "$recordType": "Commercial"
+    },
+    "StockKeepingUnit": null,
+    "Type": null,
+    "UnitOfMeasureId": null,
+    "UsageModelType": null
+  },
+  "format": 1,
+  "identity": "01thg000002IJOCAA4",
+  "identitySource": "field",
+  "name": "Workflow Automation",
+  "object": "Product2"
+}

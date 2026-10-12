@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "PMR",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Premier",
+    "IsDefault": false,
+    "Name": "Premier",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004edBAAQ"
+    },
+    "Sequence": null,
+    "Status": "Active",
+    "Value": "Premier"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005gTFAAY",
+  "identitySource": "field",
+  "name": "Premier",
+  "object": "AttributePicklistValue"
+}
