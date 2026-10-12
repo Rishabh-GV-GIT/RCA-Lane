@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "DoesAutoRenewAssetByDefault": false,
+    "Name": "Evergreen - Yearly",
+    "PricingTerm": 1,
+    "PricingTermUnit": "Annual",
+    "SellingModelType": "Evergreen",
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "0jPhg00000041LoEAI",
+  "identitySource": "field",
+  "name": "Evergreen - Yearly",
+  "object": "ProductSellingModel"
+}

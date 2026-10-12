@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "ChildProductClassificationId": null,
+    "ChildProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002IJO6AAO"
+    },
+    "ChildSellingModelId": null,
+    "DoesBundlePriceIncludeChild": false,
+    "IsComponentRequired": false,
+    "IsDefaultComponent": true,
+    "IsQuantityEditable": true,
+    "MaxQuantity": null,
+    "MinQuantity": null,
+    "ParentProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002Ioq1AAC"
+    },
+    "ParentSellingModelId": null,
+    "ProductComponentGroupId": {
+      "$ref": "ProductComponentGroup",
+      "identity": "0y7hg0000004IuQAAU"
+    },
+    "ProductRelationshipTypeId": {
+      "$ref": "ProductRelationshipType",
+      "identity": "key:[\"Bundle to Bundle Component Relationship\"]"
+    },
+    "Quantity": 1,
+    "QuantityScaleMethod": null,
+    "QuoteVisibility": "Always",
+    "Sequence": 4
+  },
+  "format": 1,
+  "identity": "0dShg0000004wzwEAA",
+  "identitySource": "field",
+  "name": "PRC-000000004",
+  "object": "ProductRelatedComponent"
+}

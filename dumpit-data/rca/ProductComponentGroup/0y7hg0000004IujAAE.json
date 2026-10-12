@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "Code": "BUN005_02",
+    "CurrencyIsoCode": "INR",
+    "Description": "Infrastructure",
+    "MaxBundleComponents": null,
+    "MinBundleComponents": null,
+    "Name": "Infrastructure",
+    "ParentGroupId": null,
+    "ParentProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002Ioq5AAC"
+    },
+    "Sequence": 2
+  },
+  "format": 1,
+  "identity": "0y7hg0000004IujAAE",
+  "identitySource": "field",
+  "name": "Infrastructure",
+  "object": "ProductComponentGroup"
+}

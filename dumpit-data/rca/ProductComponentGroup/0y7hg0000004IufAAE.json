@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "Code": "BUN004_04",
+    "CurrencyIsoCode": "INR",
+    "Description": "Add-Ons",
+    "MaxBundleComponents": null,
+    "MinBundleComponents": null,
+    "Name": "Add-Ons",
+    "ParentGroupId": null,
+    "ParentProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002Ioq4AAC"
+    },
+    "Sequence": 4
+  },
+  "format": 1,
+  "identity": "0y7hg0000004IufAAE",
+  "identitySource": "field",
+  "name": "Add-Ons",
+  "object": "ProductComponentGroup"
+}
