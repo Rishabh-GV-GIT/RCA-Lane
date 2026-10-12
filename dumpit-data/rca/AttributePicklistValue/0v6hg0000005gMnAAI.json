@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "PROF",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Professional",
+    "IsDefault": false,
+    "Name": "Professional",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004ebZAAQ"
+    },
+    "Sequence": null,
+    "Status": "Active",
+    "Value": "Professional"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005gMnAAI",
+  "identitySource": "field",
+  "name": "Professional",
+  "object": "AttributePicklistValue"
+}

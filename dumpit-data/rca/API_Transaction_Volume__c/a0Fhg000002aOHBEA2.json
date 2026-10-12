@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "Adjustment_Type__c": null,
+    "CurrencyIsoCode": "GBP",
+    "Discount_Percent__c": null,
+    "Lower_Band__c": null,
+    "Product__c": null,
+    "Upper_Band__c": null
+  },
+  "format": 1,
+  "identity": "a0Fhg000002aOHBEA2",
+  "identitySource": "field",
+  "name": "ATV-0001",
+  "object": "API_Transaction_Volume__c"
+}

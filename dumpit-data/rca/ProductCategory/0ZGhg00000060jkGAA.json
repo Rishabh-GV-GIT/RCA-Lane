@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "CatalogId": {
+      "$ref": "ProductCatalog",
+      "identity": "0ZShg0000005BHNGA2"
+    },
+    "Code": "TW-CAT-0004",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "IsNavigational": true,
+    "Name": "Cloud & Infrastructure",
+    "ParentCategoryId": null,
+    "SortOrder": 40
+  },
+  "format": 1,
+  "identity": "0ZGhg00000060jkGAA",
+  "identitySource": "field",
+  "name": "Cloud & Infrastructure",
+  "object": "ProductCategory"
+}
