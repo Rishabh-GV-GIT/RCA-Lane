@@ -14,12 +14,18 @@
                 <elementReference>Get_Date_Exchange_Rate.ConversionRate</elementReference>
             </value>
         </assignmentItems>
+        <connector>
+            <targetReference>END_ELEMENT_3</targetReference>
+        </connector>
     </assignments>
     <decisions>
         <name>Exchange_Rate_Decison</name>
         <label>Exchange Rate Decison</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>END_ELEMENT_4</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Exchange_Rate_Found</name>
@@ -38,6 +44,16 @@
         </rules>
     </decisions>
     <description>Populates the Currency Field</description>
+    <ends>
+        <name>END_ELEMENT_3</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_4</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
     <environments>Default</environments>
     <interviewLabel>Quote-Before-Creation Populate Currency rate {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Quote-Before-Creation Populate Currency rate</label>
@@ -87,8 +103,16 @@
         <connector>
             <targetReference>Get_Date_Exchange_Rate</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>TotalPrice</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
         <object>Quote</object>
-        <recordTriggerType>Create</recordTriggerType>
+        <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordBeforeSave</triggerType>
     </start>
     <status>Active</status>
