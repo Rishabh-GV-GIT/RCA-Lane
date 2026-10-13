@@ -115,8 +115,8 @@
     <apiVersion>67.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <decisions>
-        <name>Check_If_Status_is_Approved</name>
-        <label>Check If Status is Approved</label>
+        <name>Lock_Or_Unlock</name>
+        <label>Lock Or Unlock</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
@@ -124,7 +124,7 @@
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
-            <name>Is_Approved</name>
+            <name>Lock</name>
             <conditionLogic>or</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Status</leftValueReference>
@@ -140,33 +140,22 @@
                     <stringValue>Rejected</stringValue>
                 </rightValue>
             </conditions>
-            <conditions>
-                <leftValueReference>$Record.Status</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Presented</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Status</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Accepted</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Status</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Denied</stringValue>
-                </rightValue>
-            </conditions>
             <connector>
                 <targetReference>Lock_the_Quote_record</targetReference>
             </connector>
-            <label>Is Approved</label>
+            <label>Lock</label>
         </rules>
     </decisions>
+    <ends>
+        <name>END_ELEMENT_3</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_4</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
     <environments>Default</environments>
     <interviewLabel>Quote-After-Lock Record When Status Approved {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Quote-After-Lock Record When Status Approved</label>
@@ -180,6 +169,9 @@
         <nextValueConnector>
             <targetReference>Lock_QLI_s</targetReference>
         </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>END_ELEMENT_3</targetReference>
+        </noMoreValuesConnector>
     </loops>
     <loops>
         <name>Traverse_QLI_s</name>
@@ -191,6 +183,9 @@
         <nextValueConnector>
             <targetReference>Unlock_all_the_QLI_s</targetReference>
         </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>END_ELEMENT_4</targetReference>
+        </noMoreValuesConnector>
     </loops>
     <processMetadataValues>
         <name>BuilderType</name>
@@ -257,16 +252,38 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Check_If_Status_is_Approved</targetReference>
+            <targetReference>Lock_Or_Unlock</targetReference>
         </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Status</field>
-            <operator>IsChanged</operator>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </filters>
+        <filterFormula>AND(
+    ISCHANGED({!$Record.Status}),
+    OR(
+        /* 1a. Status changed to Approved */
+        ISPICKVAL({!$Record.Status}, &apos;Approved&apos;),
+
+        /* 1b. Status changed to Rejected, only from Approved or In Review */
+        AND(
+            ISPICKVAL({!$Record.Status}, &apos;Rejected&apos;),
+            ISPICKVAL(PRIORVALUE({!$Record.Status}), &apos;In Review&apos;)
+
+        ),
+
+        /* 2. Status moved back from a later stage to an early stage */
+        AND(
+            OR(
+                ISPICKVAL(PRIORVALUE({!$Record.Status}), &apos;Approved&apos;),
+                ISPICKVAL(PRIORVALUE({!$Record.Status}), &apos;Rejected&apos;),
+                ISPICKVAL(PRIORVALUE({!$Record.Status}), &apos;Presented&apos;),
+                ISPICKVAL(PRIORVALUE({!$Record.Status}), &apos;Accepted&apos;),
+                ISPICKVAL(PRIORVALUE({!$Record.Status}), &apos;Denied&apos;)
+            ),
+            OR(
+                ISPICKVAL({!$Record.Status}, &apos;Draft&apos;),
+                ISPICKVAL({!$Record.Status}, &apos;Needs Review&apos;),
+                ISPICKVAL({!$Record.Status}, &apos;In Review&apos;)
+            )
+        )
+    )
+)</filterFormula>
         <object>Quote</object>
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
