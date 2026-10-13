@@ -522,6 +522,9 @@
                 <elementReference>Cancel_FromAccount.cancelRecordId</elementReference>
             </value>
         </assignmentItems>
+        <connector>
+            <targetReference>END_ELEMENT_15</targetReference>
+        </connector>
     </assignments>
     <assignments>
         <description>Sets the record ID returned by the renewal invocable action.</description>
@@ -552,6 +555,9 @@
                 <elementReference>Rollback_Last_Action.recordId</elementReference>
             </value>
         </assignmentItems>
+        <connector>
+            <targetReference>END_ELEMENT_16</targetReference>
+        </connector>
     </assignments>
     <assignments>
         <name>Assign_outputRecordId_from_Account_swapRecordId</name>
@@ -565,6 +571,9 @@
                 <elementReference>Initiate_Swap_Action.transactionId</elementReference>
             </value>
         </assignmentItems>
+        <connector>
+            <targetReference>END_ELEMENT_17</targetReference>
+        </connector>
     </assignments>
     <assignments>
         <name>Assign_outputRecordId_from_Account_TransferRecordId</name>
@@ -578,6 +587,9 @@
                 <elementReference>Transfer_Assets.assetTransferSourceId</elementReference>
             </value>
         </assignmentItems>
+        <connector>
+            <targetReference>END_ELEMENT_18</targetReference>
+        </connector>
     </assignments>
     <assignments>
         <name>Assign_outputRecordId_from_amendRecordId</name>
@@ -607,6 +619,9 @@
                 <elementReference>Cancel_Assets.cancelRecordId</elementReference>
             </value>
         </assignmentItems>
+        <connector>
+            <targetReference>END_ELEMENT_19</targetReference>
+        </connector>
     </assignments>
     <assignments>
         <name>Assign_outputRecordId_from_Contract_swapRecordId</name>
@@ -620,6 +635,9 @@
                 <elementReference>Swap_From_Contract.transactionId</elementReference>
             </value>
         </assignmentItems>
+        <connector>
+            <targetReference>END_ELEMENT_20</targetReference>
+        </connector>
     </assignments>
     <assignments>
         <name>Assign_outputRecordId_from_renewRecordId</name>
@@ -633,6 +651,9 @@
                 <elementReference>Renew_Assets.renewRecordId</elementReference>
             </value>
         </assignmentItems>
+        <connector>
+            <targetReference>END_ELEMENT_21</targetReference>
+        </connector>
     </assignments>
     <assignments>
         <description>Assign Renewal Term selected by the user.</description>
@@ -754,6 +775,9 @@
                 <elementReference>$Flow.FaultMessage</elementReference>
             </value>
         </assignmentItems>
+        <connector>
+            <targetReference>END_ELEMENT_22</targetReference>
+        </connector>
     </assignments>
     <assignments>
         <name>Set_actionTypeNoun_to_Amendment</name>
@@ -1356,6 +1380,9 @@
         <label>Resolve Action After Date Screen</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>END_ELEMENT_23</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>No Action Specified</defaultConnectorLabel>
         <rules>
             <name>Amend_After_Date_Screen</name>
@@ -1521,6 +1548,86 @@
             <label>From Account</label>
         </rules>
     </decisions>
+    <ends>
+        <name>END_ELEMENT_15</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_16</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_17</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_18</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_19</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_20</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_21</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_22</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_23</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_24</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_25</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_26</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_27</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_28</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_29</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
+    <ends>
+        <name>END_ELEMENT_30</name>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </ends>
     <environments>Default</environments>
     <formulas>
         <name>AmendmentQuoteEndDate</name>
@@ -1920,6 +2027,12 @@
         <label>Update Renewal Quote</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
+        <connector>
+            <targetReference>END_ELEMENT_24</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>Error_Message1</targetReference>
+        </faultConnector>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -1950,6 +2063,9 @@
         <connector>
             <targetReference>errorMessageAssignment</targetReference>
         </connector>
+        <faultConnector>
+            <targetReference>Error_Message2</targetReference>
+        </faultConnector>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -2137,6 +2253,9 @@
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
+        <connector>
+            <targetReference>END_ELEMENT_25</targetReference>
+        </connector>
         <helpText>&lt;p&gt;{!errorMessage}&lt;/p&gt;</helpText>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
@@ -2149,6 +2268,9 @@
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
+        <connector>
+            <targetReference>END_ELEMENT_26</targetReference>
+        </connector>
         <fields>
             <name>Copy_1_of_DisplayError</name>
             <fieldText>&lt;p&gt;{!$Flow.FaultMessage}&lt;/p&gt;</fieldText>
@@ -2173,8 +2295,65 @@
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
+        <connector>
+            <targetReference>END_ELEMENT_27</targetReference>
+        </connector>
         <fields>
             <name>DisplayError</name>
+            <fieldText>&lt;p&gt;{!$Flow.FaultMessage}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Error_Message1</name>
+        <label>Error Message</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>END_ELEMENT_29</targetReference>
+        </connector>
+        <fields>
+            <name>Copy_1_of_Copy_1_of_DisplayError</name>
+            <fieldText>&lt;p&gt;{!$Flow.FaultMessage}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Error_Message2</name>
+        <label>Error Message</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>END_ELEMENT_30</targetReference>
+        </connector>
+        <fields>
+            <name>Copy_2_of_Copy_1_of_DisplayError</name>
             <fieldText>&lt;p&gt;{!$Flow.FaultMessage}&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
             <styleProperties>
@@ -2198,6 +2377,9 @@
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
+        <connector>
+            <targetReference>END_ELEMENT_28</targetReference>
+        </connector>
         <fields>
             <name>noCatalogErrorMessage</name>
             <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Unable to browse catalogs&lt;/strong&gt;&lt;/p&gt;</fieldText>
