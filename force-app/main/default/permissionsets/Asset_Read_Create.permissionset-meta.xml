@@ -220,6 +220,11 @@
         <field>AssetStatePeriod.Block_Pricing__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AssetStatePeriod.ManualPrice__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Asset-Read/Create</label>
     <objectPermissions>
