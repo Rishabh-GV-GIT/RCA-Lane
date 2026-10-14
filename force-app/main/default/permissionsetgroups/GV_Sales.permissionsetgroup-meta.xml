@@ -27,6 +27,8 @@
     <permissionSets>Opportunity_Read</permissionSets>
     <permissionSets>Opportunity_Read_Create</permissionSets>
     <permissionSets>Opportunity_Read_Create_Edit</permissionSets>
+    <permissionSets>OrderProduct_Read</permissionSets>
+    <permissionSets>OrderProduct_Read_Create_Edit</permissionSets>
     <permissionSets>Order_Read</permissionSets>
     <permissionSets>Order_Read_Create</permissionSets>
     <permissionSets>Order_Read_Create_Edit</permissionSets>
