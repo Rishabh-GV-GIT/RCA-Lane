@@ -690,6 +690,22 @@
                     <contextInputAttributeName>IsRevenueRecommendationEnabled__std</contextInputAttributeName>
                     <inheritedFrom>SalesTransactionContext__stdctx/version/OrderEntitiesMapping/SalesTransaction/IsRevenueRecommendationEnabled__std</inheritedFrom>
                 </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>Order</objectName>
+                        <queryAttribute>Quote_End_Date__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>QuoteEndDate__c</contextAttribute>
+                    <contextInputAttributeName>QuoteEndDate__c</contextInputAttributeName>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>Order</objectName>
+                        <queryAttribute>Customer_Tier__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>Customer_Tier__c</contextAttribute>
+                    <contextInputAttributeName>Customer_Tier__c</contextInputAttributeName>
+                </contextAttributeMappings>
                 <contextNode>SalesTransaction</contextNode>
                 <inheritedFrom>SalesTransactionContext__stdctx/version/OrderEntitiesMapping/SalesTransaction</inheritedFrom>
                 <object>Order</object>
@@ -1981,6 +1997,10 @@
                     <inheritedFrom>SalesTransactionContext__stdctx/version/OrderEntitiesMapping/SalesTransactionItem/ItemPath</inheritedFrom>
                 </contextAttributeMappings>
                 <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>OrderItem</objectName>
+                        <queryAttribute>Mininum_Net_Unit_Price__c</queryAttribute>
+                    </contextAttrHydrationDetails>
                     <contextAttribute>MinimumNetUnitPrice</contextAttribute>
                     <contextInputAttributeName>MinimumNetUnitPrice</contextInputAttributeName>
                     <inheritedFrom>SalesTransactionContext__stdctx/version/OrderEntitiesMapping/SalesTransactionItem/MinimumNetUnitPrice</inheritedFrom>
@@ -2215,8 +2235,12 @@
                 </contextAttributeMappings>
                 <contextAttributeMappings>
                     <contextAttrHydrationDetails>
+                        <contextAttrHydrationDetails>
+                            <objectName>OrderItemGroup</objectName>
+                            <queryAttribute>SortOrder</queryAttribute>
+                        </contextAttrHydrationDetails>
                         <objectName>OrderItem</objectName>
-                        <queryAttribute>GroupOrder__c</queryAttribute>
+                        <queryAttribute>OrderItemGroup</queryAttribute>
                     </contextAttrHydrationDetails>
                     <contextAttribute>GroupOrder__c</contextAttribute>
                     <contextInputAttributeName>GroupOrder__c</contextInputAttributeName>
@@ -2228,6 +2252,46 @@
                     </contextAttrHydrationDetails>
                     <contextAttribute>RenewalPriceReset__c</contextAttribute>
                     <contextInputAttributeName>RenewalPriceReset__c</contextInputAttributeName>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>OrderItem</objectName>
+                        <queryAttribute>ManualPrice__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>QuoteManualPrice__c</contextAttribute>
+                    <contextInputAttributeName>QuoteManualPrice__c</contextInputAttributeName>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>OrderItem</objectName>
+                        <queryAttribute>Applied_Start_Date__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>AppliedStartDate__c</contextAttribute>
+                    <contextInputAttributeName>AppliedStartDate__c</contextInputAttributeName>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>OrderItem</objectName>
+                        <queryAttribute>Quote_End_date_On_Line__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>QuoteEndDateOnQLI__c</contextAttribute>
+                    <contextInputAttributeName>QuoteEndDateOnQLI__c</contextInputAttributeName>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>OrderItem</objectName>
+                        <queryAttribute>StartDateonQuote__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>QuoteStartDateOnQLI__c</contextAttribute>
+                    <contextInputAttributeName>QuoteStartDateOnQLI__c</contextInputAttributeName>
+                </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>OrderItem</objectName>
+                        <queryAttribute>Applied_End_Date__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>AppliedEndDate__c</contextAttribute>
+                    <contextInputAttributeName>AppliedEndDate__c</contextInputAttributeName>
                 </contextAttributeMappings>
                 <contextNode>SalesTransactionItem</contextNode>
                 <inheritedFrom>SalesTransactionContext__stdctx/version/OrderEntitiesMapping/SalesTransactionItem</inheritedFrom>
@@ -29618,6 +29682,6 @@
     <isProtected>false</isProtected>
     <isTransformationEnabled>false</isTransformationEnabled>
     <masterLabel>Rev_SalesTransactionContext</masterLabel>
-    <releaseVersion>264.7.5</releaseVersion>
+    <releaseVersion>264.7.7</releaseVersion>
     <title>Rev_SalesTransactionContext</title>
 </ContextDefinition>
