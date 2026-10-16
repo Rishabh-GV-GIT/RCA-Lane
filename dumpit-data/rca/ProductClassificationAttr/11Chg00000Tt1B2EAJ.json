@@ -1,0 +1,42 @@
+{
+  "fields": {
+    "AttributeCategoryId": {
+      "$ref": "AttributeCategory",
+      "identity": "0v3hg0000003zLdAAI"
+    },
+    "AttributeDefinitionId": {
+      "$ref": "AttributeDefinition",
+      "identity": "0tjhg0000004mW6AAI"
+    },
+    "AttributeNameOverride": "Storage",
+    "CategorySequence": null,
+    "CurrencyIsoCode": "INR",
+    "DefaultValue": null,
+    "Description": null,
+    "DisplayType": null,
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": true,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Storage",
+    "OverriddenInheritedAttributeId": null,
+    "ProductClassificationId": {
+      "$ref": "ProductClassification",
+      "identity": "11Bhg000007zlanEAA"
+    },
+    "Sequence": null,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "11Chg00000Tt1B2EAJ",
+  "identitySource": "field",
+  "name": "Storage",
+  "object": "ProductClassificationAttr"
+}

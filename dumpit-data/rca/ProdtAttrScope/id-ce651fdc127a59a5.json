@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "Name": "OptOutAssetization",
+    "Scope": "OptOutAssetization",
+    "UsageType": "DynamicRevenueOrchestration"
+  },
+  "format": 1,
+  "identity": "key:[\"OptOutAssetization\",\"DynamicRevenueOrchestration\"]",
+  "identitySource": "standard",
+  "name": "OptOutAssetization",
+  "object": "ProdtAttrScope"
+}

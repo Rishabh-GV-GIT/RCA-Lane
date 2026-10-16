@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "OPOS",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Online POS",
+    "IsDefault": false,
+    "Name": "Online POS",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dr0AAA"
+    },
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "Online POS"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fStAAI",
+  "identitySource": "field",
+  "name": "Online POS",
+  "object": "AttributePicklistValue"
+}

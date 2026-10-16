@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "InputDate": null,
+    "InputDatetime": null,
+    "InputNumber": null,
+    "InputPicklistValueId": null,
+    "InputString": "North West",
+    "IsInputBoolean": false,
+    "IsOutputBoolean": false,
+    "OutputDate": null,
+    "OutputDatetime": null,
+    "OutputNumber": null,
+    "OutputPicklistValueId": null,
+    "OutputString": "DHL",
+    "ValueTransformGroupId": {
+      "$ref": "ValTfrmGrp",
+      "identity": "1B8hg0000003HsMCAU"
+    }
+  },
+  "format": 1,
+  "identity": "1B7hg0000003PJmCAM",
+  "identitySource": "field",
+  "name": "000000010",
+  "object": "ValTfrm"
+}

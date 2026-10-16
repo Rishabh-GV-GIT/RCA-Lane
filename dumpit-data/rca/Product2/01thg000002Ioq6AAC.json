@@ -18,6 +18,7 @@
     "HelpText": null,
     "IsActive": true,
     "IsAssetizable": true,
+    "IsSerialized": false,
     "IsSoldOnlyWithOtherProds": false,
     "Name": "Enterprise Digital Platform",
     "ProductCode": "BUN-006",
@@ -25,7 +26,9 @@
     "RecordTypeId": {
       "$recordType": "Commercial"
     },
+    "SourceProductId": null,
     "StockKeepingUnit": null,
+    "TransferRecordMode": null,
     "Type": "Bundle",
     "UnitOfMeasureId": null,
     "UsageModelType": null

@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "EstimatedDuration": 2,
+    "EstimatedDurationUnit": "Minutes",
+    "FlowDefinition": null,
+    "IntegrationDefinitionId": {
+      "$named": "IntegrationProviderDef",
+      "name": "DROOrderFulfillmentService"
+    },
+    "JeopardyThreshold": 30,
+    "JeopardyThresholdUnit": "Seconds",
+    "StepType": "Callout"
+  },
+  "format": 1,
+  "identity": "1Amhg0000003FqXCAU",
+  "identitySource": "field",
+  "name": "000000005",
+  "object": "FulfillmentStepJeopardyRule"
+}

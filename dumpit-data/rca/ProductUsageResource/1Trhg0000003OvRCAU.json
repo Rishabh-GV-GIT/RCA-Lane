@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "EffectiveEndDate": null,
+    "EffectiveStartDate": "2026-01-01T06:30:00.000Z",
+    "IsOptional": false,
+    "ProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002IJOTAA4"
+    },
+    "Status": "Active",
+    "TokenResourceId": null,
+    "UsageResourceId": {
+      "$ref": "UsageResource",
+      "identity": "1BRhg0000003VC9GAM"
+    }
+  },
+  "format": 1,
+  "identity": "1Trhg0000003OvRCAU",
+  "identitySource": "field",
+  "name": "PUR-000000003",
+  "object": "ProductUsageResource"
+}

@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "CatalogType": "Sales",
+    "Code": "PS001",
+    "CurrencyIsoCode": "INR",
+    "Description": "Point of Sale Catalog",
+    "EffectiveEndDate": null,
+    "EffectiveStartDate": null,
+    "Name": "POS Catalog"
+  },
+  "format": 1,
+  "identity": "0ZShg0000005AtEGAU",
+  "identitySource": "field",
+  "name": "POS Catalog",
+  "object": "ProductCatalog"
+}

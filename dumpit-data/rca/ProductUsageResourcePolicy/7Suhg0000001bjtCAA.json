@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "ProductSellingModelId": {
+      "$ref": "ProductSellingModel",
+      "identity": "0jPhg00000041LnEAI"
+    },
+    "ProductUsageResourceId": {
+      "$ref": "ProductUsageResource",
+      "identity": "1Trhg0000003OvRCAU"
+    },
+    "RatingFrequencyPolicyId": {
+      "$ref": "RatingFrequencyPolicy",
+      "identity": "1HJhg0000002m3lGAA"
+    },
+    "UsageAggregationPolicyId": {
+      "$ref": "UsageResourceBillingPolicy",
+      "identity": "1cfhg0000003eAcAAI"
+    },
+    "UsageCommitmentPolicyId": null,
+    "UsageOveragePolicyId": {
+      "$ref": "UsageOveragePolicy",
+      "identity": "7Ukhg0000002l65CAA"
+    }
+  },
+  "format": 1,
+  "identity": "7Suhg0000001bjtCAA",
+  "identitySource": "field",
+  "name": "PURP-000000001",
+  "object": "ProductUsageResourcePolicy"
+}

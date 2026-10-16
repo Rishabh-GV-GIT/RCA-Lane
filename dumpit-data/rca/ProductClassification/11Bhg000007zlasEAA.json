@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "PLAN",
+    "CurrencyIsoCode": "INR",
+    "Name": "Planning",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlasEAA",
+  "identitySource": "field",
+  "name": "Planning",
+  "object": "ProductClassification"
+}

@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "PriceBookId": {
+      "$ref": "Pricebook2",
+      "identity": "standard"
+    },
+    "RateCardId": {
+      "$ref": "RateCard",
+      "identity": "1CIhg0000003QFhGAM"
+    }
+  },
+  "format": 1,
+  "identity": "1Fnhg0000003PMrCAM",
+  "identitySource": "field",
+  "name": "PRC-00000003",
+  "object": "PriceBookRateCard"
+}

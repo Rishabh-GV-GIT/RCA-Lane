@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Description": null,
+    "EffectiveFrom": "2026-01-01T06:30:00.000Z",
+    "EffectiveTo": null,
+    "Name": "Base Card",
+    "Type": "Base"
+  },
+  "format": 1,
+  "identity": "1CIhg0000003QE5GAM",
+  "identitySource": "field",
+  "name": "Base Card",
+  "object": "RateCard"
+}

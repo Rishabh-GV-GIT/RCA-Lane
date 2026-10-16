@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "Code": null,
+    "CurrencyIsoCode": "INR",
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "Display",
+    "IsActive": true,
+    "IsRequired": true,
+    "Label": "Display",
+    "Name": "Display",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqoAAA"
+    },
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasureId": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "0tjhg0000004mVyAAI",
+  "identitySource": "field",
+  "name": "Display",
+  "object": "AttributeDefinition"
+}

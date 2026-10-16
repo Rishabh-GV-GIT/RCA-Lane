@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "Code": null,
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "Scanner",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Scanner",
+    "Name": "Scanner",
+    "PicklistId": null,
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasureId": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "0tjhg0000004mWDAAY",
+  "identitySource": "field",
+  "name": "Scanner",
+  "object": "AttributeDefinition"
+}

@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "CustomScope": null,
+    "DependencyScope": "Plan",
+    "DependsOnStepDefinitionId": {
+      "$ref": "FulfillmentStepDefinition",
+      "identity": "0qDhg0000003tw2EAA"
+    },
+    "FulfillmentStepDefinitionId": {
+      "$ref": "FulfillmentStepDefinition",
+      "identity": "0qDhg0000003twAEAQ"
+    },
+    "Name": "Pro_AO_PPC"
+  },
+  "format": 1,
+  "identity": "9Zrhg0000004YKrCAM",
+  "identitySource": "field",
+  "name": "Pro_AO_PPC",
+  "object": "FulfillmentStepDependencyDef"
+}

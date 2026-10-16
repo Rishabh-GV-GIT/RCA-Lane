@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "Name": "Default Rating Frequency Policy",
+    "RatingDelayDuration": 0,
+    "RatingDelayDurationUnit": "Hours",
+    "RatingPeriod": "Monthly"
+  },
+  "format": 1,
+  "identity": "1HJhg0000002m3lGAA",
+  "identitySource": "field",
+  "name": "Default Rating Frequency Policy",
+  "object": "RatingFrequencyPolicy"
+}

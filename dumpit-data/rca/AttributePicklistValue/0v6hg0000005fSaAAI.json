@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "A4",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "A4",
+    "IsDefault": false,
+    "Name": "A4",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqtAAA"
+    },
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "A4"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSaAAI",
+  "identitySource": "field",
+  "name": "A4",
+  "object": "AttributePicklistValue"
+}

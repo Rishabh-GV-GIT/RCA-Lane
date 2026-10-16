@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "FulfillmentStepDefinitionGroupId": {
+      "$ref": "FulfillmentStepDefinitionGroup",
+      "identity": "13ohg0000003jAIAAY"
+    },
+    "FulfillmentWorkspaceId": {
+      "$ref": "FulfillmentWorkspace",
+      "identity": "16hhg000001ByI4AAK"
+    },
+    "ShowOrder": 1
+  },
+  "format": 1,
+  "identity": "4TEhg0000003mzYGAQ",
+  "identitySource": "field",
+  "name": "FWI-000000012",
+  "object": "FulfillmentWorkspaceItem"
+}

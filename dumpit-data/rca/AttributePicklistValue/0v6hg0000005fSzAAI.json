@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "North West",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "North West",
+    "IsDefault": false,
+    "Name": "North West",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dr1AAA"
+    },
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "North West"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSzAAI",
+  "identitySource": "field",
+  "name": "North West",
+  "object": "AttributePicklistValue"
+}

@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "SHIPR",
+    "CurrencyIsoCode": "INR",
+    "Name": "Shipper",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlauEAA",
+  "identitySource": "field",
+  "name": "Shipper",
+  "object": "ProductClassification"
+}

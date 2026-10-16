@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "SCNR",
+    "CurrencyIsoCode": "INR",
+    "Name": "Scanner",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlarEAA",
+  "identitySource": "field",
+  "name": "Scanner",
+  "object": "ProductClassification"
+}

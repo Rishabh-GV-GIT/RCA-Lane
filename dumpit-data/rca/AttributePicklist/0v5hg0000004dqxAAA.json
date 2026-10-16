@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Code": "SP001",
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": null,
+    "Name": "Support Level Picklist",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004dqxAAA",
+  "identitySource": "field",
+  "name": "Support Level Picklist",
+  "object": "AttributePicklist"
+}

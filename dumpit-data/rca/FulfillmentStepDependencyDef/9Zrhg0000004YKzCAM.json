@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "CustomScope": null,
+    "DependencyScope": "Plan",
+    "DependsOnStepDefinitionId": {
+      "$ref": "FulfillmentStepDefinition",
+      "identity": "0qDhg0000003twDEAQ"
+    },
+    "FulfillmentStepDefinitionId": {
+      "$ref": "FulfillmentStepDefinition",
+      "identity": "0qDhg0000003tw4EAA"
+    },
+    "Name": "IB_POSF"
+  },
+  "format": 1,
+  "identity": "9Zrhg0000004YKzCAM",
+  "identitySource": "field",
+  "name": "IB_POSF",
+  "object": "FulfillmentStepDependencyDef"
+}

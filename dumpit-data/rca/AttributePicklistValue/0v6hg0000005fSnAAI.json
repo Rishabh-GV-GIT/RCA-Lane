@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "Premium Support",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Premium Support",
+    "IsDefault": true,
+    "Name": "Premium Support",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqxAAA"
+    },
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "Premium Support"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSnAAI",
+  "identitySource": "field",
+  "name": "Premium Support",
+  "object": "AttributePicklistValue"
+}

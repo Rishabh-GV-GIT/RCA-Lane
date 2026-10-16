@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "Code": null,
+    "CurrencyIsoCode": "INR",
+    "DataType": "Checkbox",
+    "DefaultHelpText": null,
+    "DefaultValue": "false",
+    "Description": null,
+    "DeveloperName": "Advance_Ecommerce",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Advance Ecommerce",
+    "Name": "Advance Ecommerce",
+    "PicklistId": null,
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasureId": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "0tjhg0000004mWBAAY",
+  "identitySource": "field",
+  "name": "Advance Ecommerce",
+  "object": "AttributeDefinition"
+}

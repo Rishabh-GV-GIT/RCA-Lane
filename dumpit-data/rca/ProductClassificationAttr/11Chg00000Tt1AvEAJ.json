@@ -1,0 +1,42 @@
+{
+  "fields": {
+    "AttributeCategoryId": {
+      "$ref": "AttributeCategory",
+      "identity": "0v3hg0000003zLZAAY"
+    },
+    "AttributeDefinitionId": {
+      "$ref": "AttributeDefinition",
+      "identity": "0tjhg0000004mW7AAI"
+    },
+    "AttributeNameOverride": "Support Level",
+    "CategorySequence": null,
+    "CurrencyIsoCode": "INR",
+    "DefaultValue": "Premium Support",
+    "Description": null,
+    "DisplayType": null,
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Support Level",
+    "OverriddenInheritedAttributeId": null,
+    "ProductClassificationId": {
+      "$ref": "ProductClassification",
+      "identity": "11Bhg000007zlalEAA"
+    },
+    "Sequence": null,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "11Chg00000Tt1AvEAJ",
+  "identitySource": "field",
+  "name": "Support Level",
+  "object": "ProductClassificationAttr"
+}

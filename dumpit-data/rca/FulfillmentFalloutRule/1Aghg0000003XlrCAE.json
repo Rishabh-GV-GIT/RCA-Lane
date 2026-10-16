@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "ErrorCode": "408",
+    "FalloutQueueId": {
+      "$named": "Group",
+      "name": "DRO_Fulfilment_Queue"
+    },
+    "FlowDefinitionName": null,
+    "IntegrationDefinitionId": {
+      "$named": "IntegrationProviderDef",
+      "name": "DROOrderFulfillmentServiceErrorCodeMON"
+    },
+    "RetriesAllowed": 3,
+    "RetryIntervals": "5",
+    "RetryPolicy": "Monotonous",
+    "StepType": "Callout"
+  },
+  "format": 1,
+  "identity": "1Aghg0000003XlrCAE",
+  "identitySource": "field",
+  "name": "000000003",
+  "object": "FulfillmentFalloutRule"
+}

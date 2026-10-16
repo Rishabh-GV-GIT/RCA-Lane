@@ -1,11 +1,11 @@
 {
   "fields": {
     "AdjustmentMethod": "Range",
-    "CurrencyIsoCode": "GBP",
+    "CurrencyIsoCode": "INR",
     "Description": null,
-    "EffectiveFrom": "2026-10-05T05:08:27.000Z",
+    "EffectiveFrom": "2024-07-08T06:11:00.000Z",
     "EffectiveTo": null,
-    "GlobalKey": "StandardBundleBasedAdjustment",
+    "GlobalKey": null,
     "IsActive": false,
     "Name": "Standard Bundle Based Adjustment",
     "Pricebook2Id": {

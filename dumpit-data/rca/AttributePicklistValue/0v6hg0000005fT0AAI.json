@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "South",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "South",
+    "IsDefault": true,
+    "Name": "South",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dr1AAA"
+    },
+    "Sequence": 3,
+    "Status": "Active",
+    "Value": "South"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fT0AAI",
+  "identitySource": "field",
+  "name": "South",
+  "object": "AttributePicklistValue"
+}

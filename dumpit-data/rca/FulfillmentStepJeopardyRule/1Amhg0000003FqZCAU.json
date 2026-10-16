@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "EstimatedDuration": 2,
+    "EstimatedDurationUnit": "Minutes",
+    "FlowDefinition": "Schedule_Delivery_Flow",
+    "IntegrationDefinitionId": null,
+    "JeopardyThreshold": 20,
+    "JeopardyThresholdUnit": "Seconds",
+    "StepType": "AutoTask"
+  },
+  "format": 1,
+  "identity": "1Amhg0000003FqZCAU",
+  "identitySource": "field",
+  "name": "000000002",
+  "object": "FulfillmentStepJeopardyRule"
+}

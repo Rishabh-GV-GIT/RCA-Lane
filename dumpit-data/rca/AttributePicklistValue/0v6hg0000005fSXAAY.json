@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "RAM 64GB",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "RAM 64GB",
+    "IsDefault": false,
+    "Name": "RAM 64GB",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqsAAA"
+    },
+    "Sequence": 4,
+    "Status": "Active",
+    "Value": "RAM 64GB"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSXAAY",
+  "identitySource": "field",
+  "name": "RAM 64GB",
+  "object": "AttributePicklistValue"
+}

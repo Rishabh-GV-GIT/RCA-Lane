@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "CSE - 6TB",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Cloud Storage Enterprise - 6 TB",
+    "IsDefault": false,
+    "Name": "Cloud Storage Enterprise - 6 TB",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqwAAA"
+    },
+    "Sequence": 6,
+    "Status": "Active",
+    "Value": "Cloud Storage Enterprise - 6 TB"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSmAAI",
+  "identitySource": "field",
+  "name": "Cloud Storage Enterprise - 6 TB",
+  "object": "AttributePicklistValue"
+}

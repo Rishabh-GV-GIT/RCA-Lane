@@ -1,0 +1,42 @@
+{
+  "fields": {
+    "AttributeCategoryId": {
+      "$ref": "AttributeCategory",
+      "identity": "0v3hg0000003zLXAAY"
+    },
+    "AttributeDefinitionId": {
+      "$ref": "AttributeDefinition",
+      "identity": "0tjhg0000004mW1AAI"
+    },
+    "AttributeNameOverride": "Graphics",
+    "CategorySequence": null,
+    "CurrencyIsoCode": "INR",
+    "DefaultValue": null,
+    "Description": null,
+    "DisplayType": null,
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Graphics",
+    "OverriddenInheritedAttributeId": null,
+    "ProductClassificationId": {
+      "$ref": "ProductClassification",
+      "identity": "11Bhg000007zlajEAA"
+    },
+    "Sequence": null,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "11Chg00000Tt1AtEAJ",
+  "identitySource": "field",
+  "name": "Graphics",
+  "object": "ProductClassificationAttr"
+}

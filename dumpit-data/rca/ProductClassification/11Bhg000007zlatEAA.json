@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "INSTL",
+    "CurrencyIsoCode": "INR",
+    "Name": "Installation",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlatEAA",
+  "identitySource": "field",
+  "name": "Installation",
+  "object": "ProductClassification"
+}

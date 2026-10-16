@@ -1,0 +1,18 @@
+{
+  "fields": {
+    "AttributeCategoryId": {
+      "$ref": "AttributeCategory",
+      "identity": "0v3hg0000003zLdAAI"
+    },
+    "AttributeDefinitionId": {
+      "$ref": "AttributeDefinition",
+      "identity": "0tjhg0000004mW6AAI"
+    },
+    "CurrencyIsoCode": "INR"
+  },
+  "format": 1,
+  "identity": "11Ehg0000008DLCEA2",
+  "identitySource": "field",
+  "name": "ACA-0000010",
+  "object": "AttributeCategoryAttribute"
+}

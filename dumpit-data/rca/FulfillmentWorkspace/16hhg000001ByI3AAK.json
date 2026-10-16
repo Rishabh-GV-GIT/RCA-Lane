@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "POS Amend"
+  },
+  "format": 1,
+  "identity": "16hhg000001ByI3AAK",
+  "identitySource": "field",
+  "name": "POS Amend",
+  "object": "FulfillmentWorkspace"
+}

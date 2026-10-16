@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "RETPOS",
+    "CurrencyIsoCode": "INR",
+    "Name": "Retail POS",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlawEAA",
+  "identitySource": "field",
+  "name": "Retail POS",
+  "object": "ProductClassification"
+}

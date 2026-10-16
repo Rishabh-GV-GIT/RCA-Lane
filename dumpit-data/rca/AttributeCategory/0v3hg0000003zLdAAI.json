@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "Code": "STO",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "Storage"
+  },
+  "format": 1,
+  "identity": "0v3hg0000003zLdAAI",
+  "identitySource": "field",
+  "name": "Storage",
+  "object": "AttributeCategory"
+}

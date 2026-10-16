@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "DestinationPrimitiveType": "Text",
+    "IsDestinationEnumerated": false,
+    "IsSourceEnumerated": true,
+    "Name": "Shipping Partner",
+    "SourcePrimitiveType": "Text",
+    "UsageType": "DFOListMapping"
+  },
+  "format": 1,
+  "identity": "1B8hg0000003HsMCAU",
+  "identitySource": "field",
+  "name": "Shipping Partner",
+  "object": "ValTfrmGrp"
+}

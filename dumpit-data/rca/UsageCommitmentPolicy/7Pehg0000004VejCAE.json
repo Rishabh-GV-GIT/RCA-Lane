@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "CommitmentRate": "Lowest Commitment Rate",
+    "Name": "Default Commitment Policy"
+  },
+  "format": 1,
+  "identity": "7Pehg0000004VejCAE",
+  "identitySource": "field",
+  "name": "Default Commitment Policy",
+  "object": "UsageCommitmentPolicy"
+}

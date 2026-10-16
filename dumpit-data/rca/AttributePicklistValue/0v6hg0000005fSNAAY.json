@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "1080p Built-in Display",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "1080p Built-in Display",
+    "IsDefault": true,
+    "Name": "1080p Built-in Display",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqoAAA"
+    },
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "1080p Built-in Display"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSNAAY",
+  "identitySource": "field",
+  "name": "1080p Built-in Display",
+  "object": "AttributePicklistValue"
+}

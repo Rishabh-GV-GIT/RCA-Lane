@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "IC5.2",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Intel Core i9 5.2 GHz",
+    "IsDefault": false,
+    "Name": "Intel Core i9 5.2 GHz",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqvAAA"
+    },
+    "Sequence": 3,
+    "Status": "Active",
+    "Value": "Intel Core i9 5.2 GHz"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSfAAI",
+  "identitySource": "field",
+  "name": "Intel Core i9 5.2 GHz",
+  "object": "AttributePicklistValue"
+}

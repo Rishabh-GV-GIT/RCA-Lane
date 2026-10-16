@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "AdjustmentType": "Override",
+    "AdjustmentValue": 0.3,
+    "LowerBound": 21,
+    "RateCardEntryId": {
+      "$ref": "RateCardEntry",
+      "identity": "1CJhg0000003T2HGAU"
+    },
+    "UpperBound": null
+  },
+  "format": 1,
+  "identity": "1DMhg000000weEnGAI",
+  "identitySource": "field",
+  "name": "RAT-00000003",
+  "object": "RateAdjustmentByTier"
+}

@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "SSD Hard Drive 2TB",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "SSD Hard Drive 2TB",
+    "IsDefault": false,
+    "Name": "SSD Hard Drive 2TB",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqwAAA"
+    },
+    "Sequence": 4,
+    "Status": "Active",
+    "Value": "SSD Hard Drive 2TB"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSlAAI",
+  "identitySource": "field",
+  "name": "SSD Hard Drive 2TB",
+  "object": "AttributePicklistValue"
+}

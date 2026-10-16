@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "MN001",
+    "CurrencyIsoCode": "INR",
+    "Name": "Monitor",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlamEAA",
+  "identitySource": "field",
+  "name": "Monitor",
+  "object": "ProductClassification"
+}

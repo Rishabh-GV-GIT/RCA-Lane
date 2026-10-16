@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "Name": "Delivery Process - 2",
+    "UsageType": "Fulfillment"
+  },
+  "format": 1,
+  "identity": "13ohg0000003jALAAY",
+  "identitySource": "field",
+  "name": "Delivery Process - 2",
+  "object": "FulfillmentStepDefinitionGroup"
+}

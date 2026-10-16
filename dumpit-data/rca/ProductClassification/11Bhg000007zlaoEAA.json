@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "KB001",
+    "CurrencyIsoCode": "INR",
+    "Name": "Keyboard",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlaoEAA",
+  "identitySource": "field",
+  "name": "Keyboard",
+  "object": "ProductClassification"
+}

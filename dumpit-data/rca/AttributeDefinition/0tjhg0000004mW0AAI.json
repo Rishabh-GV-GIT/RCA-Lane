@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "Code": null,
+    "CurrencyIsoCode": "INR",
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "Screen_Size",
+    "IsActive": true,
+    "IsRequired": true,
+    "Label": "Screen Size",
+    "Name": "Screen Size",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqqAAA"
+    },
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasureId": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "0tjhg0000004mW0AAI",
+  "identitySource": "field",
+  "name": "Screen Size",
+  "object": "AttributeDefinition"
+}

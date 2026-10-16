@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "Handheld",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Handheld",
+    "IsDefault": true,
+    "Name": "Handheld",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqzAAA"
+    },
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "Handheld"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSsAAI",
+  "identitySource": "field",
+  "name": "Handheld",
+  "object": "AttributePicklistValue"
+}

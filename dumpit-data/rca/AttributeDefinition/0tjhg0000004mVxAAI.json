@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "Code": "SUBTYPE001",
+    "CurrencyIsoCode": "INR",
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": "Business",
+    "Description": "Subscription Type - either Enterprise or Business",
+    "DeveloperName": "SubscriptionType",
+    "IsActive": true,
+    "IsRequired": true,
+    "Label": "Subscription Type",
+    "Name": "Subscription Type",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqnAAA"
+    },
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasureId": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "0tjhg0000004mVxAAI",
+  "identitySource": "field",
+  "name": "Subscription Type",
+  "object": "AttributeDefinition"
+}

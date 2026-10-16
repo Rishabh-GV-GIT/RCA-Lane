@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Code": "S0001",
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": "Scanner Type",
+    "Name": "Scanner Type",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004dqzAAA",
+  "identitySource": "field",
+  "name": "Scanner Type",
+  "object": "AttributePicklist"
+}

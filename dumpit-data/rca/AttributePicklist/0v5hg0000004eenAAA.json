@@ -1,5 +1,6 @@
 {
   "fields": {
+    "Code": "DM",
     "CurrencyIsoCode": "INR",
     "DataType": "Text",
     "Description": null,

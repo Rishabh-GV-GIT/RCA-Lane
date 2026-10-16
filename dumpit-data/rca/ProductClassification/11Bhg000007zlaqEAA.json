@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "REG",
+    "CurrencyIsoCode": "INR",
+    "Name": "Registers",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlaqEAA",
+  "identitySource": "field",
+  "name": "Registers",
+  "object": "ProductClassification"
+}

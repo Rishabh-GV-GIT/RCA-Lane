@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "Code": "PRO",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "Processor"
+  },
+  "format": 1,
+  "identity": "0v3hg0000003zLbAAI",
+  "identitySource": "field",
+  "name": "Processor",
+  "object": "AttributeCategory"
+}

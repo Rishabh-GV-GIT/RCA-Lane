@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "Code": "DIS",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "Display"
+  },
+  "format": 1,
+  "identity": "0v3hg0000003zLcAAI",
+  "identitySource": "field",
+  "name": "Display",
+  "object": "AttributeCategory"
+}

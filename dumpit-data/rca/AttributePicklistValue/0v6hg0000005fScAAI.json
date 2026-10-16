@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "LS001",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Laser",
+    "IsDefault": false,
+    "Name": "Laser",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dquAAA"
+    },
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "Laser"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fScAAI",
+  "identitySource": "field",
+  "name": "Laser",
+  "object": "AttributePicklistValue"
+}

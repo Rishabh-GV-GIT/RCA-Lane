@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Code": "PSIZE001",
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": null,
+    "Name": "Paper Size Picklist",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004dqtAAA",
+  "identitySource": "field",
+  "name": "Paper Size Picklist",
+  "object": "AttributePicklist"
+}

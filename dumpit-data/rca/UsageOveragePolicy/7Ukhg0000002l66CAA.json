@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "Name": "Overage Chargeable - No",
+    "OverageChargeable": "No"
+  },
+  "format": 1,
+  "identity": "7Ukhg0000002l66CAA",
+  "identitySource": "field",
+  "name": "Overage Chargeable - No",
+  "object": "UsageOveragePolicy"
+}

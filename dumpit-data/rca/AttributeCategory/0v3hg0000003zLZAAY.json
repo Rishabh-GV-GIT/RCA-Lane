@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "Code": "SP001",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "Support"
+  },
+  "format": 1,
+  "identity": "0v3hg0000003zLZAAY",
+  "identitySource": "field",
+  "name": "Support",
+  "object": "AttributeCategory"
+}

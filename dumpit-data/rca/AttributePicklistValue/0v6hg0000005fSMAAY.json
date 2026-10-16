@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "2k Built-in Display",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "2k Built-in Display",
+    "IsDefault": false,
+    "Name": "2k Built-in Display",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqoAAA"
+    },
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "2k Built-in Display"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSMAAY",
+  "identitySource": "field",
+  "name": "2k Built-in Display",
+  "object": "AttributePicklistValue"
+}

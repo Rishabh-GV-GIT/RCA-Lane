@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Code": "DISSIZE001",
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": null,
+    "Name": "Display Size Picklist",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004dqqAAA",
+  "identitySource": "field",
+  "name": "Display Size Picklist",
+  "object": "AttributePicklist"
+}

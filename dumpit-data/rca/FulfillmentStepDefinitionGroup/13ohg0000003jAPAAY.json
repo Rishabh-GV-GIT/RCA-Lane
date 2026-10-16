@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "Name": "De-activate POS Service",
+    "UsageType": "Fulfillment"
+  },
+  "format": 1,
+  "identity": "13ohg0000003jAPAAY",
+  "identitySource": "field",
+  "name": "De-activate POS Service",
+  "object": "FulfillmentStepDefinitionGroup"
+}

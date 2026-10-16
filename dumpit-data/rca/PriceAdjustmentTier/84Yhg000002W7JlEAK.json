@@ -1,6 +1,6 @@
 {
   "fields": {
-    "CurrencyIsoCode": "GBP",
+    "CurrencyIsoCode": "INR",
     "EffectiveFrom": "2026-09-28T06:30:00.000Z",
     "EffectiveTo": null,
     "LowerBound": 1,
@@ -23,6 +23,6 @@
   "format": 1,
   "identity": "84Yhg000002W7JlEAK",
   "identitySource": "field",
-  "name": "PAT-0000000001",
+  "name": "PAT-0000000006",
   "object": "PriceAdjustmentTier"
 }

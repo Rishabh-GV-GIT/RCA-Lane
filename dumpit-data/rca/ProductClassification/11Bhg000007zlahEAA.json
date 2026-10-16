@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "P001",
+    "CurrencyIsoCode": "INR",
+    "Name": "Paper",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlahEAA",
+  "identitySource": "field",
+  "name": "Paper",
+  "object": "ProductClassification"
+}

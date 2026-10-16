@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Code": "TRA001",
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": null,
+    "Name": "Training Type Picklist",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004dqpAAA",
+  "identitySource": "field",
+  "name": "Training Type Picklist",
+  "object": "AttributePicklist"
+}

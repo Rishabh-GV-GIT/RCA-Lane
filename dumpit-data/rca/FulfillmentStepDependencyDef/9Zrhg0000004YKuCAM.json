@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "CustomScope": null,
+    "DependencyScope": "Plan",
+    "DependsOnStepDefinitionId": {
+      "$ref": "FulfillmentStepDefinition",
+      "identity": "0qDhg0000003tw1EAA"
+    },
+    "FulfillmentStepDefinitionId": {
+      "$ref": "FulfillmentStepDefinition",
+      "identity": "0qDhg0000003tw3EAA"
+    },
+    "Name": "SPI_WI"
+  },
+  "format": 1,
+  "identity": "9Zrhg0000004YKuCAM",
+  "identitySource": "field",
+  "name": "SPI_WI",
+  "object": "FulfillmentStepDependencyDef"
+}

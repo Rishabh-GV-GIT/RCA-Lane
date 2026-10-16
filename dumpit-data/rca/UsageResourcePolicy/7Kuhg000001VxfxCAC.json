@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "RatingFrequencyPolicyId": {
+      "$ref": "RatingFrequencyPolicy",
+      "identity": "1HJhg0000002m3lGAA"
+    },
+    "UsageAggregationPolicyId": {
+      "$ref": "UsageResourceBillingPolicy",
+      "identity": "1cfhg0000003eAbAAI"
+    },
+    "UsageCommitmentPolicyId": {
+      "$ref": "UsageCommitmentPolicy",
+      "identity": "7Pehg0000004VejCAE"
+    },
+    "UsageOveragePolicyId": {
+      "$ref": "UsageOveragePolicy",
+      "identity": "7Ukhg0000002l65CAA"
+    },
+    "UsageResourceId": {
+      "$ref": "UsageResource",
+      "identity": "1BRhg0000003NBNGA2"
+    }
+  },
+  "format": 1,
+  "identity": "7Kuhg000001VxfxCAC",
+  "identitySource": "field",
+  "name": "URP-000000001",
+  "object": "UsageResourcePolicy"
+}

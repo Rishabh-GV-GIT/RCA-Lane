@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "SSD Hard Drive 256GB",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "SSD Hard Drive 256GB",
+    "IsDefault": false,
+    "Name": "SSD Hard Drive 256GB",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqwAAA"
+    },
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "SSD Hard Drive 256GB"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSjAAI",
+  "identitySource": "field",
+  "name": "SSD Hard Drive 256GB",
+  "object": "AttributePicklistValue"
+}

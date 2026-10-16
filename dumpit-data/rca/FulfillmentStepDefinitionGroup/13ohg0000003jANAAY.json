@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "Name": "Ship",
+    "UsageType": "Fulfillment"
+  },
+  "format": 1,
+  "identity": "13ohg0000003jANAAY",
+  "identitySource": "field",
+  "name": "Ship",
+  "object": "FulfillmentStepDefinitionGroup"
+}

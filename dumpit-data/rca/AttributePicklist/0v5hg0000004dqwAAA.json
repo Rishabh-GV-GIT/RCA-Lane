@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Code": "STR001",
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": null,
+    "Name": "Storage Picklist",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004dqwAAA",
+  "identitySource": "field",
+  "name": "Storage Picklist",
+  "object": "AttributePicklist"
+}

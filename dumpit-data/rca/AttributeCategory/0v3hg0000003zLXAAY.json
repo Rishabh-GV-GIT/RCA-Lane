@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "Code": "GRA",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "Graphics"
+  },
+  "format": 1,
+  "identity": "0v3hg0000003zLXAAY",
+  "identitySource": "field",
+  "name": "Graphics",
+  "object": "AttributeCategory"
+}

@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "Name": "Procure",
+    "UsageType": "Fulfillment"
+  },
+  "format": 1,
+  "identity": "13ohg0000003jAIAAY",
+  "identitySource": "field",
+  "name": "Procure",
+  "object": "FulfillmentStepDefinitionGroup"
+}

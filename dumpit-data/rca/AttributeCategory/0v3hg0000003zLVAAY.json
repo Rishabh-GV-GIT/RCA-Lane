@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "Code": "PP001",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "Paper"
+  },
+  "format": 1,
+  "identity": "0v3hg0000003zLVAAY",
+  "identitySource": "field",
+  "name": "Paper",
+  "object": "AttributeCategory"
+}

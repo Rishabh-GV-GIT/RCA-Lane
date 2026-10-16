@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "AdjustmentMethod": "Range",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "EffectiveFrom": "2023-11-27T04:02:00.000Z",
+    "EffectiveTo": null,
+    "GlobalKey": null,
+    "IsActive": false,
+    "Name": "Standard Volume Based Adjustment",
+    "Pricebook2Id": null,
+    "ScheduleType": "Volume"
+  },
+  "format": 1,
+  "identity": "key:[\"Standard Volume Based Adjustment\"]",
+  "identitySource": "standard",
+  "name": "Standard Volume Based Adjustment",
+  "object": "PriceAdjustmentSchedule"
+}

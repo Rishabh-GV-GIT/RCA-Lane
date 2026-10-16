@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "IN001",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Inkjet",
+    "IsDefault": false,
+    "Name": "Inkjet",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dquAAA"
+    },
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "Inkjet"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSdAAI",
+  "identitySource": "field",
+  "name": "Inkjet",
+  "object": "AttributePicklistValue"
+}

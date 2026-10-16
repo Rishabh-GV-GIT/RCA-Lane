@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "Code": "POSFEAT",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "POS Features"
+  },
+  "format": 1,
+  "identity": "0v3hg0000003zLhAAI",
+  "identitySource": "field",
+  "name": "POS Features",
+  "object": "AttributeCategory"
+}

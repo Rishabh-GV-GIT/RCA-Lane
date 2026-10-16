@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "M001",
+    "CurrencyIsoCode": "INR",
+    "Name": "Mouse",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlapEAA",
+  "identitySource": "field",
+  "name": "Mouse",
+  "object": "ProductClassification"
+}

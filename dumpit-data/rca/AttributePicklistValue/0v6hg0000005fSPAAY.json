@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "Security Training",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Security Training",
+    "IsDefault": false,
+    "Name": "Security Training",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqpAAA"
+    },
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "Security Training"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSPAAY",
+  "identitySource": "field",
+  "name": "Security Training",
+  "object": "AttributePicklistValue"
+}

@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "SL001",
+    "CurrencyIsoCode": "INR",
+    "Name": "Support",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlalEAA",
+  "identitySource": "field",
+  "name": "Support",
+  "object": "ProductClassification"
+}

@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Code": "MEM001",
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": null,
+    "Name": "Memory Picklist",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004dqsAAA",
+  "identitySource": "field",
+  "name": "Memory Picklist",
+  "object": "AttributePicklist"
+}

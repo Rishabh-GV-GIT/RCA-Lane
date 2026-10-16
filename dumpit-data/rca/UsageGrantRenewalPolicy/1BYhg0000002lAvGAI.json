@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "Code": "DEFAULT_MONTHLY_REFRESH1780721051830",
+    "IsRenewalAllowed": true,
+    "Name": "Renew Grants Monthly",
+    "RenewalFrequency": 1,
+    "RenewalFrequencyUnit": "Month",
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "1BYhg0000002lAvGAI",
+  "identitySource": "field",
+  "name": "Renew Grants Monthly",
+  "object": "UsageGrantRenewalPolicy"
+}

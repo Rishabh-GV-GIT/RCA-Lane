@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Code": "RG0001",
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": "Region",
+    "Name": "Region",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004dr1AAA",
+  "identitySource": "field",
+  "name": "Region",
+  "object": "AttributePicklist"
+}

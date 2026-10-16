@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "Code": null,
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "Register",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Register",
+    "Name": "Register",
+    "PicklistId": null,
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasureId": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "0tjhg0000004mWCAAY",
+  "identitySource": "field",
+  "name": "Register",
+  "object": "AttributeDefinition"
+}

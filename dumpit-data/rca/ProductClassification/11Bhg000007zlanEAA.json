@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "CS001",
+    "CurrencyIsoCode": "INR",
+    "Name": "Cloud Storage",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlanEAA",
+  "identitySource": "field",
+  "name": "Cloud Storage",
+  "object": "ProductClassification"
+}

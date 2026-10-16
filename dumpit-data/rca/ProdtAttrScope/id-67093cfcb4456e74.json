@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "Name": "OptOutDecompositionAction",
+    "Scope": "OptOutDecompositionAction",
+    "UsageType": "DynamicRevenueOrchestration"
+  },
+  "format": 1,
+  "identity": "key:[\"OptOutDecompositionAction\",\"DynamicRevenueOrchestration\"]",
+  "identitySource": "standard",
+  "name": "OptOutDecompositionAction",
+  "object": "ProdtAttrScope"
+}

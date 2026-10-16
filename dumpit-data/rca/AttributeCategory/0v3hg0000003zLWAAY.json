@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "Code": "P001",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "Printer"
+  },
+  "format": 1,
+  "identity": "0v3hg0000003zLWAAY",
+  "identitySource": "field",
+  "name": "Printer",
+  "object": "AttributeCategory"
+}

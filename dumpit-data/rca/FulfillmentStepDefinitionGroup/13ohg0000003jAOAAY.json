@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "Name": "Activate",
+    "UsageType": "Fulfillment"
+  },
+  "format": 1,
+  "identity": "13ohg0000003jAOAAY",
+  "identitySource": "field",
+  "name": "Activate",
+  "object": "FulfillmentStepDefinitionGroup"
+}

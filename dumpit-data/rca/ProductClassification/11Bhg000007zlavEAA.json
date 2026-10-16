@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "ACTVN",
+    "CurrencyIsoCode": "INR",
+    "Name": "Activation",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlavEAA",
+  "identitySource": "field",
+  "name": "Activation",
+  "object": "ProductClassification"
+}

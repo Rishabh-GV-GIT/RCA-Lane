@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "DestinationPrimitiveType": "Text",
+    "IsDestinationEnumerated": false,
+    "IsSourceEnumerated": true,
+    "Name": "POS Mapping",
+    "SourcePrimitiveType": "Text",
+    "UsageType": "DFOListMapping"
+  },
+  "format": 1,
+  "identity": "1B8hg0000003HsLCAU",
+  "identitySource": "field",
+  "name": "POS Mapping",
+  "object": "ValTfrmGrp"
+}

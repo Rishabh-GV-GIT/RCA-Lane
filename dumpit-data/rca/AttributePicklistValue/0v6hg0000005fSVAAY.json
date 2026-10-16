@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "MSI Gaming GeForce RTX 3060",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "MSI Gaming GeForce RTX 3060",
+    "IsDefault": false,
+    "Name": "MSI Gaming GeForce RTX 3060",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqrAAA"
+    },
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "MSI Gaming GeForce RTX 3060"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSVAAY",
+  "identitySource": "field",
+  "name": "MSI Gaming GeForce RTX 3060",
+  "object": "AttributePicklistValue"
+}

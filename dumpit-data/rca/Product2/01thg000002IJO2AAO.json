@@ -18,6 +18,7 @@
     "HelpText": null,
     "IsActive": true,
     "IsAssetizable": true,
+    "IsSerialized": false,
     "IsSoldOnlyWithOtherProds": false,
     "Name": "CRM Platform",
     "ProductCode": "TW-002",
@@ -25,7 +26,9 @@
     "RecordTypeId": {
       "$recordType": "Commercial"
     },
+    "SourceProductId": null,
     "StockKeepingUnit": null,
+    "TransferRecordMode": null,
     "Type": null,
     "UnitOfMeasureId": null,
     "UsageModelType": null

@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Code": "PRO001",
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": null,
+    "Name": "Processor Picklist",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004dqvAAA",
+  "identitySource": "field",
+  "name": "Processor Picklist",
+  "object": "AttributePicklist"
+}

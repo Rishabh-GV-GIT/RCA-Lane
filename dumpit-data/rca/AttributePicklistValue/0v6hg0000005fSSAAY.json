@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "24IN",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "24 Inch",
+    "IsDefault": false,
+    "Name": "24 Inch",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqqAAA"
+    },
+    "Sequence": 3,
+    "Status": "Active",
+    "Value": "24 Inch"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSSAAY",
+  "identitySource": "field",
+  "name": "24 Inch",
+  "object": "AttributePicklistValue"
+}

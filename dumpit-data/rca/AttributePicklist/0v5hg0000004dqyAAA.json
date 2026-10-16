@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Code": "R0001",
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": "Register Type",
+    "Name": "Register Type",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004dqyAAA",
+  "identitySource": "field",
+  "name": "Register Type",
+  "object": "AttributePicklist"
+}

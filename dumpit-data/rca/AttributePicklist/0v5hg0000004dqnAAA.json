@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Code": "STPICK002",
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": "Subscription Type",
+    "Name": "Subscription Type",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004dqnAAA",
+  "identitySource": "field",
+  "name": "Subscription Type",
+  "object": "AttributePicklist"
+}

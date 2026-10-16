@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Code": "POS0001",
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": "POS Type",
+    "Name": "POS Type",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004dr0AAA",
+  "identitySource": "field",
+  "name": "POS Type",
+  "object": "AttributePicklist"
+}

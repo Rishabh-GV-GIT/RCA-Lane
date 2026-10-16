@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "Code": "CT001",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "Connection Type"
+  },
+  "format": 1,
+  "identity": "0v3hg0000003zLeAAI",
+  "identitySource": "field",
+  "name": "Connection Type",
+  "object": "AttributeCategory"
+}

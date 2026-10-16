@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "CustomScope": null,
+    "DependencyScope": "Plan",
+    "DependsOnStepDefinitionId": {
+      "$ref": "FulfillmentStepDefinition",
+      "identity": "0qDhg0000003tw5EAA"
+    },
+    "FulfillmentStepDefinitionId": {
+      "$ref": "FulfillmentStepDefinition",
+      "identity": "0qDhg0000003twIEAQ"
+    },
+    "Name": "sd1sdUpdateInventory"
+  },
+  "format": 1,
+  "identity": "9Zrhg0000004YL5CAM",
+  "identitySource": "field",
+  "name": "sd1sdUpdateInventory",
+  "object": "FulfillmentStepDependencyDef"
+}

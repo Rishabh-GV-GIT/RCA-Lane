@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "EffectiveFrom": "2026-01-01T06:30:00.000Z",
+    "EffectiveTo": null,
+    "ProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002IJOTAA4"
+    },
+    "ProductSellingModelId": {
+      "$ref": "ProductSellingModel",
+      "identity": "0jPhg00000041LnEAI"
+    },
+    "Rate": null,
+    "RateCardId": {
+      "$ref": "RateCard",
+      "identity": "1CIhg0000003QFhGAM"
+    },
+    "RateNegotiation": "Negotiable",
+    "RateUnitOfMeasureId": {
+      "$ref": "UnitOfMeasure",
+      "identity": "0hEhg0000004hWNEAY"
+    },
+    "Status": "Active",
+    "UsageResourceId": {
+      "$ref": "UsageResource",
+      "identity": "1BRhg0000003VC9GAM"
+    }
+  },
+  "format": 1,
+  "identity": "1CJhg0000003T2HGAU",
+  "identitySource": "field",
+  "name": "RCE-00000004",
+  "object": "RateCardEntry"
+}

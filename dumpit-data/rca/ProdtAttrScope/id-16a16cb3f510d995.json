@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "Name": "OptOutSuppementalAction",
+    "Scope": "OptOutSuppementalAction",
+    "UsageType": "DynamicRevenueOrchestration"
+  },
+  "format": 1,
+  "identity": "key:[\"OptOutSuppementalAction\",\"DynamicRevenueOrchestration\"]",
+  "identitySource": "standard",
+  "name": "OptOutSuppementalAction",
+  "object": "ProdtAttrScope"
+}

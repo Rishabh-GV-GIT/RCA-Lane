@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "Code": "MEM",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "Memory"
+  },
+  "format": 1,
+  "identity": "0v3hg0000003zLaAAI",
+  "identitySource": "field",
+  "name": "Memory",
+  "object": "AttributeCategory"
+}

@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "CatalogType": "Sales",
+    "Code": null,
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "EffectiveEndDate": null,
+    "EffectiveStartDate": null,
+    "Name": "Software Catalog"
+  },
+  "format": 1,
+  "identity": "0ZShg0000005AtBGAU",
+  "identitySource": "field",
+  "name": "Software Catalog",
+  "object": "ProductCatalog"
+}

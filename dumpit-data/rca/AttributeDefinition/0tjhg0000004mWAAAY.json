@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "Code": null,
+    "CurrencyIsoCode": "INR",
+    "DataType": "Checkbox",
+    "DefaultHelpText": null,
+    "DefaultValue": "FALSE",
+    "Description": null,
+    "DeveloperName": "Wireless",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Wireless",
+    "Name": "Wireless",
+    "PicklistId": null,
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasureId": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "0tjhg0000004mWAAAY",
+  "identitySource": "field",
+  "name": "Wireless",
+  "object": "AttributeDefinition"
+}

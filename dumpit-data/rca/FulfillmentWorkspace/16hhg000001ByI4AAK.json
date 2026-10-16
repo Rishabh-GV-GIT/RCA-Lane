@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "Simple Product Add"
+  },
+  "format": 1,
+  "identity": "16hhg000001ByI4AAK",
+  "identitySource": "field",
+  "name": "Simple Product Add",
+  "object": "FulfillmentWorkspace"
+}

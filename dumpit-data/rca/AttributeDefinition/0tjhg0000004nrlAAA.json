@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "Code": null,
+    "CurrencyIsoCode": "INR",
+    "DataType": "Number",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "Processing_Volume",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Processing Volume",
+    "Name": "Processing Volume",
+    "PicklistId": null,
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasureId": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "0tjhg0000004nrlAAA",
+  "identitySource": "field",
+  "name": "Processing Volume",
+  "object": "AttributeDefinition"
+}

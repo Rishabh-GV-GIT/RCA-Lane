@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "Intel Iris Xe Graphics",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Intel Iris Xe Graphics",
+    "IsDefault": false,
+    "Name": "Intel Iris Xe Graphics",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqrAAA"
+    },
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "Intel Iris Xe Graphics"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSUAAY",
+  "identitySource": "field",
+  "name": "Intel Iris Xe Graphics",
+  "object": "AttributePicklistValue"
+}

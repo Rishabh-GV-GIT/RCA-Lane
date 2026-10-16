@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "SSD Hard Drive 1TB",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "SSD Hard Drive 1TB",
+    "IsDefault": false,
+    "Name": "SSD Hard Drive 1TB",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqwAAA"
+    },
+    "Sequence": 3,
+    "Status": "Active",
+    "Value": "SSD Hard Drive 1TB"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSiAAI",
+  "identitySource": "field",
+  "name": "SSD Hard Drive 1TB",
+  "object": "AttributePicklistValue"
+}

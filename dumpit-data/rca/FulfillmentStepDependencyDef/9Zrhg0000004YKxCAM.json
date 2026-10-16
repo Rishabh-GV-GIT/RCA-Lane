@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "CustomScope": null,
+    "DependencyScope": "Plan",
+    "DependsOnStepDefinitionId": {
+      "$ref": "FulfillmentStepDefinition",
+      "identity": "0qDhg0000003twEEAQ"
+    },
+    "FulfillmentStepDefinitionId": {
+      "$ref": "FulfillmentStepDefinition",
+      "identity": "0qDhg0000003twFEAQ"
+    },
+    "Name": "DAPOS_CB"
+  },
+  "format": 1,
+  "identity": "9Zrhg0000004YKxCAM",
+  "identitySource": "field",
+  "name": "DAPOS_CB",
+  "object": "FulfillmentStepDependencyDef"
+}

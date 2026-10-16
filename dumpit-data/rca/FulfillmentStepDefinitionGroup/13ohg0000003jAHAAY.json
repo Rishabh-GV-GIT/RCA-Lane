@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "Name": "Install",
+    "UsageType": "Fulfillment"
+  },
+  "format": 1,
+  "identity": "13ohg0000003jAHAAY",
+  "identitySource": "field",
+  "name": "Install",
+  "object": "FulfillmentStepDefinitionGroup"
+}

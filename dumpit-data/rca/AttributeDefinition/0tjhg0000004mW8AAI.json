@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "Code": null,
+    "CurrencyIsoCode": "INR",
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": "Cash & Card",
+    "Description": null,
+    "DeveloperName": "Register_Type",
+    "IsActive": true,
+    "IsRequired": true,
+    "Label": "Type",
+    "Name": "Register Type",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqyAAA"
+    },
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasureId": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "0tjhg0000004mW8AAI",
+  "identitySource": "field",
+  "name": "Register Type",
+  "object": "AttributeDefinition"
+}

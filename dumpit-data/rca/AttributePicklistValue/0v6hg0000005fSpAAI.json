@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "Stationary",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Stationary",
+    "IsDefault": false,
+    "Name": "Stationary",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqzAAA"
+    },
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "Stationary"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSpAAI",
+  "identitySource": "field",
+  "name": "Stationary",
+  "object": "AttributePicklistValue"
+}

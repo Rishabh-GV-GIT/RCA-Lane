@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "Name": "Cancel Billing",
+    "UsageType": "Fulfillment"
+  },
+  "format": 1,
+  "identity": "13ohg0000003jAQAAY",
+  "identitySource": "field",
+  "name": "Cancel Billing",
+  "object": "FulfillmentStepDefinitionGroup"
+}

@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "SFT001",
+    "CurrencyIsoCode": "INR",
+    "Name": "Software",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlagEAA",
+  "identitySource": "field",
+  "name": "Software",
+  "object": "ProductClassification"
+}

@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "PR001",
+    "CurrencyIsoCode": "INR",
+    "Name": "Printer",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlaiEAA",
+  "identitySource": "field",
+  "name": "Printer",
+  "object": "ProductClassification"
+}

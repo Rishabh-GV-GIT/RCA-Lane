@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "Code": "T001",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "Training"
+  },
+  "format": 1,
+  "identity": "0v3hg0000003zLYAAY",
+  "identitySource": "field",
+  "name": "Training",
+  "object": "AttributeCategory"
+}

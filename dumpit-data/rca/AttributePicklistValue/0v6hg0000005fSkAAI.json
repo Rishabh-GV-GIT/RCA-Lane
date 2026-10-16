@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "SSD Hard Drive 512GB",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "SSD Hard Drive 512GB",
+    "IsDefault": false,
+    "Name": "SSD Hard Drive 512GB",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqwAAA"
+    },
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "SSD Hard Drive 512GB"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSkAAI",
+  "identitySource": "field",
+  "name": "SSD Hard Drive 512GB",
+  "object": "AttributePicklistValue"
+}

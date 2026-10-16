@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "POS Fulfilment Plan"
+  },
+  "format": 1,
+  "identity": "16hhg000001ByI1AAK",
+  "identitySource": "field",
+  "name": "POS Fulfilment Plan",
+  "object": "FulfillmentWorkspace"
+}

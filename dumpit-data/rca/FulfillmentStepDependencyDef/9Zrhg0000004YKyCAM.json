@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "CustomScope": null,
+    "DependencyScope": "Plan",
+    "DependsOnStepDefinitionId": {
+      "$ref": "FulfillmentStepDefinition",
+      "identity": "0qDhg0000003twGEAQ"
+    },
+    "FulfillmentStepDefinitionId": {
+      "$ref": "FulfillmentStepDefinition",
+      "identity": "0qDhg0000003twFEAQ"
+    },
+    "Name": "CECommCB"
+  },
+  "format": 1,
+  "identity": "9Zrhg0000004YKyCAM",
+  "identitySource": "field",
+  "name": "CECommCB",
+  "object": "FulfillmentStepDependencyDef"
+}

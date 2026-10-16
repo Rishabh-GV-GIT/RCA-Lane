@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "AdjustmentMethod": "Range",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "EffectiveFrom": "2023-12-02T06:45:00.000Z",
+    "EffectiveTo": null,
+    "GlobalKey": null,
+    "IsActive": false,
+    "Name": "Standard Tier Based Adjustment",
+    "Pricebook2Id": null,
+    "ScheduleType": "Volume"
+  },
+  "format": 1,
+  "identity": "key:[\"Standard Tier Based Adjustment\"]",
+  "identitySource": "standard",
+  "name": "Standard Tier Based Adjustment",
+  "object": "PriceAdjustmentSchedule"
+}

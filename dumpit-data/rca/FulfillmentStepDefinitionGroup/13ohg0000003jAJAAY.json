@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "Name": "Billing",
+    "UsageType": "Fulfillment"
+  },
+  "format": 1,
+  "identity": "13ohg0000003jAJAAY",
+  "identitySource": "field",
+  "name": "Billing",
+  "object": "FulfillmentStepDefinitionGroup"
+}

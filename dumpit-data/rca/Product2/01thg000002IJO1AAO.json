@@ -1,6 +1,6 @@
 {
   "fields": {
-    "Allow_Custom_Price__c": false,
+    "Allow_Custom_Price__c": true,
     "AvailabilityDate": null,
     "BasedOnId": null,
     "Block_Pricing__c": false,
@@ -18,6 +18,7 @@
     "HelpText": null,
     "IsActive": true,
     "IsAssetizable": true,
+    "IsSerialized": false,
     "IsSoldOnlyWithOtherProds": false,
     "Name": "Business Suite",
     "ProductCode": "TW-001",
@@ -25,7 +26,9 @@
     "RecordTypeId": {
       "$recordType": "Commercial"
     },
+    "SourceProductId": null,
     "StockKeepingUnit": null,
+    "TransferRecordMode": null,
     "Type": null,
     "UnitOfMeasureId": null,
     "UsageModelType": null

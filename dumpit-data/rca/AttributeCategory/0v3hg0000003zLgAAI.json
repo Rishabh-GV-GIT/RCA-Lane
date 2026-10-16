@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "Code": "SCNTYP",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "Scanner Type"
+  },
+  "format": 1,
+  "identity": "0v3hg0000003zLgAAI",
+  "identitySource": "field",
+  "name": "Scanner Type",
+  "object": "AttributeCategory"
+}

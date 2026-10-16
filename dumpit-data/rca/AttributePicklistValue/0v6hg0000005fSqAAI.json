@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "Cash & Card",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Cash & Card",
+    "IsDefault": true,
+    "Name": "Cash & Card",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqyAAA"
+    },
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "Cash & Card"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSqAAI",
+  "identitySource": "field",
+  "name": "Cash & Card",
+  "object": "AttributePicklistValue"
+}

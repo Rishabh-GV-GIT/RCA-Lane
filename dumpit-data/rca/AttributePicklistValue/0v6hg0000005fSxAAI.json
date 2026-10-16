@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "Multichannel POS",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Multichannel POS",
+    "IsDefault": true,
+    "Name": "Multichannel POS",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dr0AAA"
+    },
+    "Sequence": 5,
+    "Status": "Active",
+    "Value": "Multichannel POS"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSxAAI",
+  "identitySource": "field",
+  "name": "Multichannel POS",
+  "object": "AttributePicklistValue"
+}

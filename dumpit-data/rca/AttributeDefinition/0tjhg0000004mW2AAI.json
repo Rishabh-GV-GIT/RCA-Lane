@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "Code": null,
+    "CurrencyIsoCode": "INR",
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "Memory",
+    "IsActive": true,
+    "IsRequired": true,
+    "Label": "Memory",
+    "Name": "Memory",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqsAAA"
+    },
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasureId": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "0tjhg0000004mW2AAI",
+  "identitySource": "field",
+  "name": "Memory",
+  "object": "AttributeDefinition"
+}

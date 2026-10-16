@@ -1,5 +1,6 @@
 {
   "fields": {
+    "Code": "ED",
     "CurrencyIsoCode": "INR",
     "DataType": "Text",
     "Description": null,

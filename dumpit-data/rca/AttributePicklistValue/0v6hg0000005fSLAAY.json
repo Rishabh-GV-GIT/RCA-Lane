@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "Software Training",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Software Training",
+    "IsDefault": false,
+    "Name": "Software Training",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dqpAAA"
+    },
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "Software Training"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSLAAY",
+  "identitySource": "field",
+  "name": "Software Training",
+  "object": "AttributePicklistValue"
+}

@@ -1,0 +1,42 @@
+{
+  "fields": {
+    "AttributeCategoryId": {
+      "$ref": "AttributeCategory",
+      "identity": "0v3hg0000003zLeAAI"
+    },
+    "AttributeDefinitionId": {
+      "$ref": "AttributeDefinition",
+      "identity": "0tjhg0000004mWAAAY"
+    },
+    "AttributeNameOverride": "Wireless",
+    "CategorySequence": null,
+    "CurrencyIsoCode": "INR",
+    "DefaultValue": "FALSE",
+    "Description": null,
+    "DisplayType": null,
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Wireless",
+    "OverriddenInheritedAttributeId": null,
+    "ProductClassificationId": {
+      "$ref": "ProductClassification",
+      "identity": "11Bhg000007zlapEAA"
+    },
+    "Sequence": null,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  },
+  "format": 1,
+  "identity": "11Chg00000Tt1B5EAJ",
+  "identitySource": "field",
+  "name": "Wireless",
+  "object": "ProductClassificationAttr"
+}

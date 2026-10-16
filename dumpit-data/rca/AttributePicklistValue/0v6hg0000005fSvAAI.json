@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "Abbreviation": null,
+    "Code": "Cloud Based POS",
+    "CurrencyIsoCode": "INR",
+    "DisplayValue": "Cloud Based POS",
+    "IsDefault": false,
+    "Name": "Cloud Based POS",
+    "PicklistId": {
+      "$ref": "AttributePicklist",
+      "identity": "0v5hg0000004dr0AAA"
+    },
+    "Sequence": 3,
+    "Status": "Active",
+    "Value": "Cloud Based POS"
+  },
+  "format": 1,
+  "identity": "0v6hg0000005fSvAAI",
+  "identitySource": "field",
+  "name": "Cloud Based POS",
+  "object": "AttributePicklistValue"
+}

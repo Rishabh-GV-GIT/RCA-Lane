@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "Code": "TL001",
+    "CurrencyIsoCode": "INR",
+    "Name": "Training",
+    "ParentProductClassificationId": null,
+    "Status": "Active"
+  },
+  "format": 1,
+  "identity": "11Bhg000007zlakEAA",
+  "identitySource": "field",
+  "name": "Training",
+  "object": "ProductClassification"
+}

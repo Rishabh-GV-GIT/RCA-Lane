@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "CatalogId": {
+      "$ref": "ProductCatalog",
+      "identity": "0ZShg0000005AtDGAU"
+    },
+    "Code": null,
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "IsNavigational": true,
+    "Name": "Training",
+    "ParentCategoryId": null,
+    "SortOrder": null
+  },
+  "format": 1,
+  "identity": "0ZGhg00000060JzGAI",
+  "identitySource": "field",
+  "name": "Training",
+  "object": "ProductCategory"
+}

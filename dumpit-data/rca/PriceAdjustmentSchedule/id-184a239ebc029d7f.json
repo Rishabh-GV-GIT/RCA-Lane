@@ -5,8 +5,8 @@
     "Description": null,
     "EffectiveFrom": "2024-07-08T06:11:00.000Z",
     "EffectiveTo": null,
-    "GlobalKey": "StandardPriceAdjustmentTier",
-    "IsActive": true,
+    "GlobalKey": null,
+    "IsActive": false,
     "Name": "Standard Price Adjustment Tier",
     "Pricebook2Id": {
       "$ref": "Pricebook2",

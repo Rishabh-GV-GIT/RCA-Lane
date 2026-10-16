@@ -1,0 +1,40 @@
+{
+  "fields": {
+    "DrawdownOrder": "ExpiringFirst",
+    "EffectiveEndDate": null,
+    "EffectiveStartDate": "2026-01-01T06:30:00.000Z",
+    "Label": "Monthly Grant",
+    "ProductSellingModelId": null,
+    "ProductUsageResourceId": {
+      "$ref": "ProductUsageResource",
+      "identity": "1Trhg0000003OvRCAU"
+    },
+    "Quantity": 1000,
+    "RenewalPolicyId": {
+      "$ref": "UsageGrantRenewalPolicy",
+      "identity": "1BYhg0000002lAvGAI"
+    },
+    "RolloverPolicyId": null,
+    "Status": "Active",
+    "Type": "Grant",
+    "UnitOfMeasureClassId": {
+      "$ref": "UnitOfMeasureClass",
+      "identity": "1BQhg0000003IGZGA2"
+    },
+    "UnitOfMeasureId": {
+      "$ref": "UnitOfMeasure",
+      "identity": "0hEhg0000004hWEEAY"
+    },
+    "UsageDefinitionProductId": {
+      "$ref": "Product2",
+      "identity": "01thg000002IJOTAA4"
+    },
+    "ValidityPeriodTerm": 1,
+    "ValidityPeriodUnit": "Month"
+  },
+  "format": 1,
+  "identity": "1BXhg0000004P7tGAE",
+  "identitySource": "field",
+  "name": "GRANT-000000003",
+  "object": "ProductUsageGrant"
+}

@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "CostBookId": null,
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "GlobalKey": null,
+    "IsActive": true,
+    "Name": "Nonprofit",
+    "ValidFrom": null,
+    "ValidTo": null
+  },
+  "format": 1,
+  "identity": "01shg000002EealAAC",
+  "identitySource": "field",
+  "name": "Nonprofit",
+  "object": "Pricebook2"
+}

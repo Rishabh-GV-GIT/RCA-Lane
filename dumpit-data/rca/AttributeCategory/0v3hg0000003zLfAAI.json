@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "Code": "REGTYP",
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "Register Type"
+  },
+  "format": 1,
+  "identity": "0v3hg0000003zLfAAI",
+  "identitySource": "field",
+  "name": "Register Type",
+  "object": "AttributeCategory"
+}

@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Code": "GRA001",
+    "CurrencyIsoCode": "INR",
+    "DataType": "Text",
+    "Description": null,
+    "Name": "Graphics Picklist",
+    "Status": "Active",
+    "UnitOfMeasureId": null
+  },
+  "format": 1,
+  "identity": "0v5hg0000004dqrAAA",
+  "identitySource": "field",
+  "name": "Graphics Picklist",
+  "object": "AttributePicklist"
+}

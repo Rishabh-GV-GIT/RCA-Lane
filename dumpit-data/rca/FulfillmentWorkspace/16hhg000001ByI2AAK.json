@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "Name": "POS Cancel"
+  },
+  "format": 1,
+  "identity": "16hhg000001ByI2AAK",
+  "identitySource": "field",
+  "name": "POS Cancel",
+  "object": "FulfillmentWorkspace"
+}

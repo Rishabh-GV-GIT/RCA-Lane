@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "CatalogId": {
+      "$ref": "ProductCatalog",
+      "identity": "0ZShg0000005AtCGAU"
+    },
+    "Code": null,
+    "CurrencyIsoCode": "INR",
+    "Description": null,
+    "IsNavigational": true,
+    "Name": "Accessories",
+    "ParentCategoryId": null,
+    "SortOrder": null
+  },
+  "format": 1,
+  "identity": "0ZGhg00000060JxGAI",
+  "identitySource": "field",
+  "name": "Accessories",
+  "object": "ProductCategory"
+}
